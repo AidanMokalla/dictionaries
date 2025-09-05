@@ -1,0 +1,896 @@
+\documentclass[a5paper,10pt]{book}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}  % Or another widely available font
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{vietnamese}
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{lettrine}
+
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\entry}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X@{}r@{}}
+    \textbf{#1}\dotfill & #2 \\
+  \end{tabularx}
+}
+
+\newcommand{\multientry}[3]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X@{}r@{}}
+    \textbf{#1}  \textbf{ #2} & \\[-0.5ex]
+    \dotfill  #3 \\
+  \end{tabularx}
+}
+
+\newcommand{\textviet}[1]{\textvietnamese{#1}}
+
+\begin{document}
+
+\frontmatter
+\title{Portland Public Middle School Science Curricula Translation Dictionary \\ Tiếng Việt – English}
+\author{Aidan Mokalla}
+\date{\today}
+\maketitle
+\tableofcontents
+\mainmatter
+\chapter{From English to Vietnamese}
+\begin{multicols}{2}
+\section*{A}
+\entry{Abiotic}{\textviet{Phi sinh học}}
+\multientry{Abiotic}{factors}{\textviet{Yếu tố phi sinh học}}
+\entry{Absorption}{\textviet{Sự hấp thụ}}
+\entry{Acid}{\textviet{Axit}}
+\multientry{Acquired}{trait}{\textviet{Đặc điểm nhận được}}
+\entry{Adaptation}{\textviet{Sự thích nghi}}
+\entry{Adult}{\textviet{Người trưởng thành}}
+\multientry{Adult}{plant}{\textviet{Thực vật trưởng thành}}
+\multientry{Air}{resistance}{\textviet{Sự kháng cự không khí}}
+\entry{Algae}{\textviet{Tảo}}
+\entry{Allele}{\textviet{Alen}}
+\entry{Amphibian}{\textviet{Lưỡng cư}}
+\entry{Amplitude}{\textviet{Biên độ}}
+\entry{Ancestor}{\textviet{Tổ tiên}}
+\entry{Anemometer}{\textviet{Máy đo tốc độ gió}}
+\multientry{Animal}{cell}{\textviet{Tế bào động vật}}
+\entry{Aquatic}{\textviet{Thuộc nước}}
+\entry{Area}{\textviet{Diện tích}}
+\entry{Atmosphere}{\textviet{Khí quyển}}
+\entry{Atom}{\textviet{Nguyên tử}}
+\multientry{Atomic}{mass}{\textviet{Khối lượng nguyên tử}}
+\multientry{Atomic}{number}{\textviet{Số nguyên tử}}
+\entry{Axis}{\textviet{Trục}}
+\section*{B}
+\entry{Bacteria}{\textviet{Vi khuẩn}}
+\multientry{Balance}{scale}{\textviet{Cân bằng}}
+\multientry{Balanced}{equation}{\textviet{Phương trình cân bằng}}
+\entry{Barometer}{\textviet{Barômet}}
+\entry{Base}{\textviet{Bazơ}}
+\entry{Battery}{\textviet{Pin, Ắc quy}}
+\multientry{Biodegradable}{}{\textviet{Có thể phân giải sinh học}}
+\entry{Biodiversity}{\textviet{Sự đa dạng sinh học}}
+\entry{Biome}{\textviet{Sinh quyển}}
+\entry{Biotic}{\textviet{Thuộc sinh học}}
+\multientry{Biotic}{factors}{\textviet{Yếu tố sinh học}}
+\multientry{Boiling}{point}{\textviet{Điểm sôi}}
+\entry{Buoyancy}{\textviet{Lực nổi}}
+\section*{C}
+\entry{Camouflage}{\textviet{Ngụy trang}}
+\entry{Carnivore}{\textviet{Động vật ăn thịt}}
+\multientry{Carrying}{capacity}{\textviet{Sức chứa}}
+\entry{Category}{\textviet{Thể loại}}
+\entry{Cell}{\textviet{Tế bào}}
+\multientry{Cell}{membrane}{\textviet{Màng tế bào}}
+\multientry{Cell}{wall}{\textviet{Tường tế bào}}
+\multientry{Cellular}{respiration}{\textviet{Sự hô hấp tế bào}}
+\entry{Celsius}{\textviet{Độ C (Celsius)}}
+\multientry{Chemical}{bond}{\textviet{Liên kết hóa học}}
+\multientry{Chemical}{change}{\textviet{Sự biến đổi hóa học}}
+\multientry{Chemical}{energy}{\textviet{Năng lượng hóa học}}
+\multientry{Chemical}{reaction}{\textviet{Phản ứng hóa học}}
+\multientry{Chemical}{Reactions}{\textviet{Những phản ứng hóa học}}
+\entry{Chlorophyll}{\textviet{Diệp lục tố}}
+\entry{Chloroplast}{\textviet{Tiểu lục phân tử}}
+\multientry{Chloroplasts}{}{\textviet{Những tiểu lục phân tử}}
+\multientry{Chromosome}{}{\textviet{Nhiễm sắc thể}}
+\multientry{Chromosomes}{}{\textviet{Nhiều nhiễm sắc thể}}
+\entry{Circuit}{\textviet{Mạch điện}}
+\entry{Circulation}{\textviet{Tuần hoàn}}
+\multientry{Circulatory}{system}{\textviet{Hệ thống tuần hoàn}}
+\multientry{Cirrus}{clouds}{\textviet{Mây quyển}}
+\entry{Classification}{\textviet{Sự phân loại}}
+\entry{Climate}{\textviet{Khí hậu}}
+\entry{Cloning}{\textviet{Nhân bản}}
+\entry{Comet}{\textviet{Sao chổi}}
+\multientry{Commensalism}{}{\textviet{Quan hệ cộng sinh}}
+\entry{Community}{\textviet{Cộng đồng}}
+\entry{Competition}{\textviet{Sự cạnh tranh}}
+\entry{Compost}{\textviet{Phân hữu cơ}}
+\entry{Compound}{\textviet{Hợp chất}}
+\multientry{Compound}{machine}{\textviet{Máy phức hợp}}
+\entry{Compression}{\textviet{Sự nén}}
+\entry{Conclusion}{\textviet{Kết luận}}
+\entry{Condensation}{\textviet{Sự ngưng tụ}}
+\entry{Conduction}{\textviet{Sự dẫn nhiệt}}
+\entry{Conductor}{\textviet{Vật dẫn nhiệt}}
+\entry{Conservation}{\textviet{Sự bảo tồn}}
+\multientry{Conservation}{of mass}{\textviet{Bảo toàn khối lượng}}
+\entry{Constellation}{\textviet{Chòm sao}}
+\entry{Consumer}{\textviet{Người tiêu thụ}}
+\entry{Control}{\textviet{Kiểm soát}}
+\entry{Convection}{\textviet{Đối lưu}}
+\entry{Cooperation}{\textviet{Hợp tác}}
+\multientry{Covalent}{bond}{\textviet{Liên kết cộng hóa}}
+\entry{Crust}{\textviet{Vỏ (Trái Đất)}}
+\multientry{Cumulus}{clouds}{\textviet{Mây tích}}
+\entry{Current}{\textviet{Dòng điện}}
+\multientry{Current}{(electrical and ocean)}{\textviet{Dòng điện/Dòng biển}}
+\entry{Cycle}{\textviet{Chu kỳ}}
+\entry{Cytoplasm}{\textviet{Chất tế bào}}
+\section*{D}
+\entry{Data}{\textviet{Dữ liệu}}
+\entry{Decomposer}{\textviet{Vật/người phân giải}}
+\entry{Density}{\textviet{Mật độ}}
+\entry{Deposition}{\textviet{Sự kết tủa}}
+\entry{Descendant}{\textviet{Hậu duệ}}
+\entry{Development}{\textviet{Sự phát triển}}
+\entry{Digestion}{\textviet{Sự tiêu hóa}}
+\multientry{Digestive}{system}{\textviet{Hệ tiêu hóa}}
+\entry{Dinosaur}{\textviet{Khủng long}}
+\entry{Dissolve}{\textviet{Tan}}
+\entry{DNA}{\textviet{DNA}}
+\entry{Dominant}{\textviet{Trội/ Ưu thế}}
+\entry{Dormant}{\textviet{Ngủ đông}}
+\section*{E}
+\multientry{Earth}{and Space Sciences}{\textviet{Khoa học Trái Đất và không gian}}
+\entry{Earthquake}{\textviet{Động đất}}
+\entry{Ecosystem}{\textviet{Hệ sinh thái}}
+\entry{Egestion}{\textviet{Sự thải ra}}
+\entry{Egg}{\textviet{Trứng}}
+\multientry{Electrical}{energy}{\textviet{Năng lượng điện}}
+\entry{Electron}{\textviet{Electron}}
+\entry{Element}{\textviet{Nguyên tố}}
+\multientry{Endocrine}{system}{\textviet{Hệ nội tiết}}
+\multientry{Endoplasmic}{reticulum}{\textviet{Lưới nội chất}}
+\entry{Energy}{\textviet{Năng lượng}}
+\multientry{Energy}{pyramid}{\textviet{Kim tự tháp năng lượng}}
+\multientry{Energy}{transfer}{\textviet{Sự chuyển năng lượng}}
+\multientry{Engineering}{Design}{\textviet{Thiết kế kỹ thuật}}
+\entry{Erosion}{\textviet{Sự xói mòn}}
+\multientry{Eukaryotic}{}{\textviet{Động vật/ Sinh vật có nhân thật}}
+\entry{Evaporation}{\textviet{Sự bay hơi}}
+\entry{Evolution}{\textviet{Sự tiến hóa}}
+\entry{Excretion}{\textviet{Sự bài tiết}}
+\multientry{Excretory}{system}{\textviet{Hệ bài tiết}}
+\entry{Experiment}{\textviet{Thí nghiệm}}
+\entry{Extinct}{\textviet{Tuyệt chủng}}
+\section*{F}
+\entry{Fermentation}{\textviet{Sự lên men}}
+\entry{Fertilization}{\textviet{Sự thụ tinh}}
+\multientry{Food}{chain}{\textviet{Chuỗi thức ăn}}
+\multientry{Food}{web}{\textviet{Mạng lưới thức ăn}}
+\entry{Force}{\textviet{Lực}}
+\multientry{Forces}{and Interactions}{\textviet{Lực và tương tác}}
+\entry{Fossil}{\textviet{Hóa thạch}}
+\multientry{Fossil}{fuel}{\textviet{Nhiên liệu hóa thạch}}
+\multientry{Fossil}{record}{\textviet{Hồ sơ/ghi chép về hóa thạch }}
+\entry{Frequency}{\textviet{Tần suất}}
+\entry{Friction}{\textviet{Ma sát}}
+\entry{Fuel}{\textviet{Nhiên liệu}}
+\entry{Fungi}{\textviet{Nấm}}
+\section*{G}
+\entry{Galaxy}{\textviet{Ngân hà}}
+\entry{Gas}{\textviet{Khí}}
+\entry{Gene}{\textviet{Gen}}
+\multientry{Genetic}{disorder}{\textviet{Rối loạn di truyền}}
+\multientry{Genetic}{engineering}{\textviet{Kỹ thuật gen}}
+\entry{Genetics}{\textviet{Di truyền học}}
+\entry{Genotype}{\textviet{Kiểu gen}}
+\multientry{Geothermal}{energy}{\textviet{Năng lượng địa nhiệt}}
+\entry{Germination}{\textviet{Sự nảy mầm}}
+\multientry{Golgi}{apparatus}{\textviet{Bộ máy Golgi}}
+\entry{Gram}{\textviet{Gam}}
+\entry{Gravity}{\textviet{Trọng lực}}
+\multientry{Greenhouse}{effect}{\textviet{Hiệu ứng nhà kính}}
+\entry{Groundwater}{\textviet{Nước ngầm}}
+\entry{Growth}{\textviet{Sự phát triển}}
+\section*{H}
+\entry{Habitat}{\textviet{Môi trường sống}}
+\entry{Heat}{\textviet{Hơi nóng}}
+\entry{Herbivore}{\textviet{Động vật ăn cỏ}}
+\entry{Heredity}{\textviet{Di truyền}}
+\entry{Heterozygous}{\textviet{Dị hợp tử}}
+\entry{Hibernation}{\textviet{Sự trú ẩn/ ngủ đông}}
+\entry{Homeostasis}{\textviet{Cân bằng nội môi}}
+\entry{Homozygous}{\textviet{Đồng hợp tử}}
+\multientry{Human}{Impacts}{\textviet{Tác động của con người}}
+\multientry{Human}{Sustainability}{\textviet{Sự bền vững con người}}
+\entry{Hydroelectricity}{\textviet{Thủy điện}}
+\entry{Hypothesis}{\textviet{Giả thuyết}}
+\section*{I}
+\multientry{Igneous}{rock}{\textviet{Đá nham thạch}}
+\multientry{Immune}{system}{\textviet{Hệ miễn dịch}}
+\multientry{Incline}{plane}{\textviet{Mặt phẳng nghiêng}}
+\entry{Indicator}{\textviet{Chỉ số/ Chất chỉ thị}}
+\entry{Inertia}{\textviet{Quán tính/ Sự bất động}}
+\entry{Ingestion}{\textviet{Sự nuốt vào}}
+\multientry{Inheritance}{and Variation of Traits}{\textviet{Di truyền và biến đổi đặc điểm}}
+\multientry{Inherited}{trait}{\textviet{Đặc điểm di truyền}}
+\entry{Insect}{\textviet{Côn trùng}}
+\entry{Instinct}{\textviet{Bản năng}}
+\entry{Insulator}{\textviet{Vật cách điện}}
+\multientry{Interdependent}{Relationships in Ecosystems}{\textviet{Mối quan hệ tương phụ trong hệ sinh thái}}
+\multientry{Invertebrate}{}{\textviet{Động vật không xương sống}}
+\entry{Investigation}{\textviet{Sự điều tra}}
+\entry{Ion}{\textviet{Ion}}
+\multientry{Ionic}{bond}{\textviet{Liên kết ion}}
+\entry{Isotope}{\textviet{Đồng vị}}
+\section*{J}
+\multientry{Jet}{stream}{\textviet{Dòng không khí/ dòng phản lưc}}
+\entry{Joule}{\textviet{Joule}}
+\section*{K}
+\multientry{Kinetic}{energy}{\textviet{Động năng}}
+\section*{L}
+\entry{Larva}{\textviet{Ấu trùng}}
+\entry{Lava}{\textviet{Nham thạch}}
+\multientry{Law}{(scientific)}{\textviet{Luật (khoa học)}}
+\multientry{Law}{of conservation of energy}{\textviet{Luật bảo toàn năng lượng}}
+\entry{Lens}{\textviet{Thấu kính}}
+\entry{Lever}{\textviet{Đòn bẩy}}
+\multientry{Life}{cycle}{\textviet{Chu kỳ sống}}
+\multientry{Life}{Cycles and Traits}{\textviet{Chu kỳ đời sống và đặc điểm}}
+\multientry{Life}{Sciences}{\textviet{Khoa học đời sống}}
+\entry{Light}{\textviet{Ánh sáng}}
+\multientry{Light}{energy}{\textviet{Năng lượng ánh sáng}}
+\multientry{Limiting}{factor}{\textviet{Yếu tố hạn chế}}
+\entry{Liquid}{\textviet{Chất lỏng}}
+\entry{Liter}{\textviet{Lít}}
+\entry{Lysosomes}{\textviet{Tiểu bào lysosomes}}
+\section*{M}
+\entry{Magnetism}{\textviet{Từ tính}}
+\entry{Mammal}{\textviet{Động vật có vú}}
+\entry{Mass}{\textviet{Khối lượng}}
+\entry{Matter}{\textviet{Vật chất}}
+\multientry{Matter}{and Energy in Organisms and Ecosystems}{\textviet{Vật chất và năng lượng trong sinh vật và hệ sinh thái}}
+\multientry{Measurement}{}{\textviet{Sự / phép đo lường}}
+\multientry{Mechanical}{energy}{\textviet{Năng lượng cơ học}}
+\entry{Meiosis}{\textviet{Giảm phân}}
+\multientry{Metallic}{bond}{\textviet{Liên kết kim loại}}
+\multientry{Metamorphic}{rock}{\textviet{Đá biến chất / biến dạng}}
+\multientry{Metamorphosis}{}{\textviet{Sự biến đổi hình thái}}
+\entry{Meteor}{\textviet{Sao băng}}
+\entry{Meteorologist}{\textviet{Nhà khí tượng học}}
+\entry{Meter}{\textviet{Mét}}
+\entry{Microorganism}{\textviet{Vi sinh vật}}
+\entry{Microscope}{\textviet{Kính hiển vi}}
+\entry{Microscopic}{\textviet{Vi kích}}
+\entry{Migration}{\textviet{Di cư}}
+\entry{Mimicry}{\textviet{Sự bắt chước}}
+\entry{Mineral}{\textviet{Khoáng vật}}
+\entry{Mitochondria}{\textviet{Tiểu bào chất}}
+\entry{Mitosis}{\textviet{Nguyên phân}}
+\entry{Mixture}{\textviet{Hỗn hợp}}
+\entry{Model}{\textviet{Mô hình}}
+\entry{Molecule}{\textviet{Phân tử}}
+\entry{Molting}{\textviet{Sự lột xác}}
+\multientry{Moon}{phase}{\textviet{Giai đoạn của mặt trăng}}
+\multientry{Muscular}{system}{\textviet{Hệ cơ}}
+\entry{Mutation}{\textviet{Đột biến}}
+\entry{Mutualism}{\textviet{Cộng sinh}}
+\section*{N}
+\multientry{Natural}{resource}{\textviet{Tài nguyên tự nhiên}}
+\multientry{Natural}{selection}{\textviet{Chọn lọc tự nhiên}}
+\multientry{Natural}{Selection and Adaptations}{\textviet{Chọn lọc tự nhiên và sự thích nghi}}
+\multientry{Natural}{Selection and Evolution}{\textviet{Chọn lọc tự nhiên và tiến hóa}}
+\entry{Nebula}{\textviet{Vụn sao}}
+\entry{Nectar}{\textviet{Mật hoa}}
+\multientry{Nervous}{system}{\textviet{Hệ thần kinh}}
+\entry{Neutral}{\textviet{Trung tính}}
+\entry{Neutron}{\textviet{Neutron}}
+\entry{Niche}{\textviet{Vị trí sinh thái / Thích hợp}}
+\multientry{Nitrogen}{cycle}{\textviet{Chu trình nitơ}}
+\multientry{Nonrenewable}{resource}{\textviet{Tài nguyên không tái tạo}}
+\multientry{Nuclear}{energy}{\textviet{Năng lượng hạt nhân}}
+\multientry{Nucleus}{(of a nucleus)}{\textviet{Nhân}}
+\multientry{Nucleus (of}{a cell)}{\textviet{Nhân tế bào}}
+\entry{Nymph}{\textviet{Con non}}
+\section*{O}
+\entry{Observation}{\textviet{Quan sát}}
+\entry{Offspring}{\textviet{Con cái}}
+\entry{Omnivore}{\textviet{Động vật ăn tạp}}
+\entry{Orbit}{\textviet{Quỹ đạo}}
+\entry{Organ}{\textviet{Cơ quan}}
+\multientry{Organ}{system}{\textviet{Hệ cơ quan}}
+\entry{Organism}{\textviet{Sinh vật}}
+\entry{Ovary}{\textviet{Buồng trứng}}
+\entry{Oxygen}{\textviet{Oxy}}
+\entry{Ozone}{\textviet{Tầng ôzôn}}
+\section*{P}
+\multientry{Parallel}{circuit}{\textviet{Mạch nối song song}}
+\entry{Parasite}{\textviet{Ký sinh trùng}}
+\entry{Parasitism}{\textviet{Sự kí sinh}}
+\entry{Parent}{\textviet{Cha mẹ}}
+\entry{Particle}{\textviet{Hạt/ Nguyên tử}}
+\multientry{Patterns}{and Cycles}{\textviet{Mô hình và chu kỳ}}
+\entry{Pedigree}{\textviet{Phả hệ}}
+\entry{Perimeter}{\textviet{Chu vi}}
+\multientry{Periodic}{table}{\textviet{Bảng tuần hoàn}}
+\multientry{pH}{scale}{\textviet{Thang đo pH}}
+\entry{Phenotype}{\textviet{Kiểu hình}}
+\entry{Photosynthesis}{\textviet{Quang hợp}}
+\multientry{Physical}{change}{\textviet{Biến đổi vật lí}}
+\multientry{Physical}{Sciences}{\textviet{Khoa học vật lý}}
+\entry{Planet}{\textviet{Hành tinh}}
+\multientry{Plate}{tectonics}{\textviet{Kiến tạo địa tầng}}
+\entry{Pollination}{\textviet{Sự thụ phấn}}
+\multientry{Pollinator}{}{\textviet{Người/con vật thụ phấn}}
+\entry{Pollution}{\textviet{Sự ô nhiễm}}
+\entry{Population}{\textviet{Dân số}}
+\multientry{Potential}{energy}{\textviet{Năng lượng tiềm năng}}
+\entry{Predator}{\textviet{Động vật săn mồi}}
+\entry{Prey}{\textviet{Con mồi}}
+\multientry{Primary}{consumer}{\textviet{Người tiêu thụ chủ yếu}}
+\entry{Prism}{\textviet{Lăng kính}}
+\entry{Probability}{\textviet{Xác suất}}
+\multientry{Processes}{that Shape the Earth}{\textviet{Quy trình hình thành Trái Đất}}
+\entry{Producer}{\textviet{Người sản xuất}}
+\entry{Product}{\textviet{Sản phẩm}}
+\entry{Prokaryotic}{\textviet{Sinh vật nhân sơ}}
+\entry{Proton}{\textviet{Proton}}
+\entry{Pulley}{\textviet{Bánh răng/ Ròng rọc}}
+\multientry{Punnett}{square}{\textviet{Bảng Punnett}}
+\entry{Pupa}{\textviet{Nhộng}}
+\multientry{Pushes}{and Pulls}{\textviet{Đẩy và kéo}}
+\section*{Q}
+\multientry{Quaternary}{consumer}{\textviet{Người tiêu thụ bậc bốn}}
+\section*{R}
+\multientry{Radiant}{energy}{\textviet{Năng lượng bức xạ}}
+\entry{Radiation}{\textviet{Phóng xạ}}
+\multientry{Rain}{shadow}{\textviet{Bóng mưa}}
+\entry{Rarefaction}{\textviet{Sự loãng đi}}
+\entry{Reactant}{\textviet{Chất phản ứng}}
+\entry{Recessive}{\textviet{Lặn}}
+\entry{Recycle}{\textviet{Tái chế}}
+\entry{Reflection}{\textviet{Sự phản xạ}}
+\entry{Refraction}{\textviet{Sự khúc xạ}}
+\multientry{Renewable}{resource}{\textviet{Tài nguyên tái tạo}}
+\entry{Reproduction}{\textviet{Sự sinh sản}}
+\multientry{Reproductive}{system}{\textviet{Hệ sinh sản}}
+\entry{Reptile}{\textviet{Bò sát}}
+\entry{Resistance}{\textviet{Sự cản trở}}
+\entry{Respiration}{\textviet{Hô hấp}}
+\multientry{Respiratory}{system}{\textviet{Hệ hô hấp}}
+\entry{Response}{\textviet{Phản ứng}}
+\entry{Revolve}{\textviet{Xoay vòng}}
+\entry{Ribosomes}{\textviet{Ribosome}}
+\entry{RNA}{\textviet{ARN}}
+\entry{Rotate}{\textviet{Quay}}
+\section*{S}
+\entry{Satellite}{\textviet{Vệ tinh}}
+\entry{Scavenger}{\textviet{Động vật ăn xác}}
+\entry{Screw}{\textviet{Đinh ốc}}
+\multientry{Secondary}{consumer}{\textviet{Người tiêu thụ thứ cấp}}
+\multientry{Sedimentary}{rock}{\textviet{Đá trầm tích}}
+\multientry{Seed}{dispersal}{\textviet{Sự lan truyền hạt giống}}
+\multientry{Seed}{germination}{\textviet{Sự nảy mầm của hạt}}
+\entry{Seedling}{\textviet{Cây con}}
+\multientry{Selective}{breeding}{\textviet{Sự lai tạo chọn lọc}}
+\multientry{Series}{circuit}{\textviet{Mạch nối tiếp}}
+\multientry{Simple}{machine}{\textviet{Máy đơn giản}}
+\multientry{Skeletal}{system}{\textviet{Hệ xương}}
+\multientry{Solar}{energy}{\textviet{Năng lượng mặt trời}}
+\multientry{Solar}{panel}{\textviet{Tấm năng lượng mặt trời}}
+\multientry{Solar}{system}{\textviet{Hệ mặt trời}}
+\entry{Solid}{\textviet{Chất rắn}}
+\entry{Solute}{\textviet{Chất tan}}
+\entry{Solution}{\textviet{Dung dịch}}
+\entry{Solvent}{\textviet{Chất làm tan}}
+\multientry{Sound}{energy}{\textviet{Năng lượng âm thanh}}
+\multientry{Sound}{wave}{\textviet{Sóng âm}}
+\multientry{Space}{Systems}{\textviet{Hệ thống không gian}}
+\entry{Species}{\textviet{Loài}}
+\entry{Spectrum}{\textviet{Phổ}}
+\multientry{Spring}{scale}{\textviet{Cân lò xo}}
+\entry{Star}{\textviet{Sao}}
+\multientry{Stars}{and the Solar System}{\textviet{Sao và hệ mặt trời}}
+\multientry{States}{of matter}{\textviet{Trạng thái vật chất}}
+\entry{Stimulus}{\textviet{Kích thích}}
+\multientry{Stratus}{clouds}{\textviet{Mây tầng}}
+\multientry{Structure}{and Function}{\textviet{Cấu trúc và chức năng}}
+\multientry{Structure}{and Properties of Matter}{\textviet{Cấu trúc và tính chất của vật chất}}
+\entry{Sun}{\textviet{Mặt trời}}
+\entry{Symbiosis}{\textviet{Sự cộng sinh}}
+\section*{T}
+\multientry{Tectonic}{plates}{\textviet{Bản đồ/ Mảng kiến tạo}}
+\entry{Telescope}{\textviet{Kính viễn vọng}}
+\entry{Temperature}{\textviet{Nhiệt độ}}
+\multientry{Tertiary}{consumer}{\textviet{Người tiêu thụ cấp ba}}
+\entry{Theory}{\textviet{Lý thuyết}}
+\multientry{Thermal}{energy}{\textviet{Nhiệt năng}}
+\entry{Thermometer}{\textviet{Nhiệt kế}}
+\multientry{Tidal}{wave}{\textviet{Sóng thần}}
+\entry{Tide}{\textviet{Thuỷ triều}}
+\entry{Tissue}{\textviet{Mô}}
+\entry{Tornado}{\textviet{Lốc xoáy}}
+\entry{Trait}{\textviet{Đặc điểm}}
+\entry{Transformer}{\textviet{Máy biến áp}}
+\multientry{Transpiration}{}{\textviet{Sự bốc hơi/ Sự thoát hơi nước}}
+\entry{Tropism}{\textviet{Chủ nghĩa nhiệt đới}}
+\entry{Troposphere}{\textviet{Tầng đối lưu}}
+\section*{U}
+\entry{Ultraviolet}{\textviet{Tia tử ngoại}}
+\entry{Universe}{\textviet{Vũ trụ}}
+\section*{V}
+\entry{Vacuoles}{\textviet{Không bào}}
+\entry{Vacuum}{\textviet{Chân không}}
+\entry{Variable}{\textviet{Biến số}}
+\entry{Variation}{\textviet{Biến thể}}
+\multientry{Vertebrate}{}{\textviet{Động vật có xương sống}}
+\entry{Volcano}{\textviet{Núi lửa}}
+\entry{Voltage}{\textviet{Điện áp}}
+\entry{Volume}{\textviet{Thể tích}}
+\section*{W}
+\multientry{Water}{cycle}{\textviet{Chu trình nước}}
+\multientry{Water}{vapor}{\textviet{Hơi nước}}
+\entry{Wave}{\textviet{Sóng}}
+\entry{Wavelength}{\textviet{Bước sóng}}
+\multientry{Waves}{and Electromagnetic Radiation}{\textviet{Sóng và bức xạ điện từ}}
+\multientry{Waves}{and Information}{\textviet{Sóng và thông tin}}
+\entry{Weather}{\textviet{Thời tiết}}
+\multientry{Weather}{and Climate}{\textviet{Thời tiết và khí hậu}}
+\entry{Weathering}{\textviet{Phong hóa}}
+\entry{Wedge}{\textviet{Lưỡi liềm}}
+\entry{Weight}{\textviet{Trọng lượng}}
+\entry{Wetland}{\textviet{Vùng đất ngập nước}}
+\multientry{Wheel}{and axle}{\textviet{Bánh xe và trục}}
+\entry{Wind}{\textviet{Gió}}
+\multientry{Wind}{energy}{\textviet{Năng lượng gió}}
+\multientry{Wind}{turbine}{\textviet{Tuabin gió}}
+\entry{Work}{\textviet{Công việc}}
+\section*{X}
+\entry{Xylem}{\textviet{Mô gỗ}}
+\section*{Y}
+\entry{Yeast}{\textviet{Men}}
+\section*{Z}
+\multientry{Zero}{degrees}{\textviet{Không độ}}
+\multientry{Zero}{gravity}{\textviet{Không trọng lực}}
+\multientry{Zone}{(climate and layers of the Earth)}{\textviet{Vùng (khí hậu và lớp của Trái Đất)}}
+\entry{Zoology}{\textviet{Động vật học}}
+\end{multicols}
+\chapter{Từ tiếng Việt sang tiếng Anh}
+\begin{multicols}{2}
+\section*{A}
+\entry{Alen}{Allele}
+\entry{ARN}{RNA}
+\entry{Axit}{Acid}
+\section*{B}
+\entry{Barômet}{Barometer}
+\entry{Bazơ}{Base}
+\multientry{Bánh}{răng/ Ròng rọc}{Pulley}
+\multientry{Bánh}{xe và trục}{Wheel and axle}
+\entry{Bản năng}{Instinct}
+\multientry{Bản}{đồ/ Mảng kiến tạo}{Tectonic plates}
+\multientry{Bảng}{Punnett}{Punnett square}
+\multientry{Bảng}{tuần hoàn}{Periodic table}
+\multientry{Bảo}{toàn khối lượng}{Conservation of mass}
+\entry{Biên độ}{Amplitude}
+\entry{Biến số}{Variable}
+\entry{Biến thể}{Variation}
+\multientry{Biến}{đổi vật lí}{Physical change}
+\entry{Bò sát}{Reptile}
+\entry{Bóng mưa}{Rain shadow}
+\multientry{Bộ}{máy Golgi}{Golgi apparatus}
+\entry{Buồng trứng}{Ovary}
+\entry{Bước sóng}{Wavelength}
+\section*{C}
+\entry{Cân bằng}{Balance scale}
+\multientry{Cân}{bằng nội môi}{Homeostasis}
+\entry{Cân lò xo}{Spring scale}
+\entry{Cây con}{Seedling}
+\multientry{Cấu}{trúc và chức năng}{Structure and Function}
+\multientry{Cấu}{trúc và tính chất của vật chất}{Structure and Properties of Matter}
+\entry{Cha mẹ}{Parent}
+\entry{Chân không}{Vacuum}
+\entry{Chất làm tan}{Solvent}
+\entry{Chất lỏng}{Liquid}
+\entry{Chất phản ứng}{Reactant}
+\entry{Chất rắn}{Solid}
+\entry{Chất tan}{Solute}
+\entry{Chất tế bào}{Cytoplasm}
+\multientry{Chỉ}{số/ Chất chỉ thị}{Indicator}
+\entry{Chòm sao}{Constellation}
+\multientry{Chọn}{lọc tự nhiên}{Natural selection}
+\multientry{Chọn}{lọc tự nhiên và sự thích nghi}{Natural Selection and Adaptations}
+\multientry{Chọn}{lọc tự nhiên và tiến hóa}{Natural Selection and Evolution}
+\entry{Chu kỳ}{Cycle}
+\entry{Chu kỳ sống}{Life cycle}
+\multientry{Chu}{kỳ đời sống và đặc điểm}{Life Cycles and Traits}
+\multientry{Chu}{trình nitơ}{Nitrogen cycle}
+\multientry{Chu}{trình nước}{Water cycle}
+\entry{Chu vi}{Perimeter}
+\entry{Chuỗi thức ăn}{Food chain}
+\multientry{Chủ}{nghĩa nhiệt đới}{Tropism}
+\entry{Con cái}{Offspring}
+\entry{Con mồi}{Prey}
+\entry{Con non}{Nymph}
+\multientry{Có}{thể phân giải sinh học}{Biodegradable}
+\entry{Côn trùng}{Insect}
+\entry{Công việc}{Work}
+\entry{Cơ quan}{Organ}
+\entry{Cộng sinh}{Mutualism}
+\entry{Cộng đồng}{Community}
+\section*{D}
+\entry{Dân số}{Population}
+\entry{Di cư}{Migration}
+\entry{Di truyền}{Heredity}
+\entry{Di truyền học}{Genetics}
+\multientry{Di}{truyền và biến đổi đặc điểm}{Inheritance and Variation of Traits}
+\entry{Diện tích}{Area}
+\entry{Diệp lục tố}{Chlorophyll}
+\entry{Dị hợp tử}{Heterozygous}
+\entry{DNA}{DNA}
+\multientry{Dòng}{không khí/ dòng phản lưc}{Jet stream}
+\entry{Dòng điện}{Current}
+\multientry{Dòng}{điện/Dòng biển}{Current (electrical and ocean)}
+\entry{Dung dịch}{Solution}
+\entry{Dữ liệu}{Data}
+\section*{E}
+\entry{Electron}{Electron}
+\section*{G}
+\entry{Gam}{Gram}
+\entry{Gen}{Gene}
+\multientry{Giai}{đoạn của mặt trăng}{Moon phase}
+\entry{Giả thuyết}{Hypothesis}
+\entry{Giảm phân}{Meiosis}
+\entry{Gió}{Wind}
+\section*{H}
+\entry{Hành tinh}{Planet}
+\entry{Hạt/ Nguyên tử}{Particle}
+\entry{Hậu duệ}{Descendant}
+\multientry{Hệ}{bài tiết}{Excretory system}
+\entry{Hệ cơ}{Muscular system}
+\entry{Hệ cơ quan}{Organ system}
+\multientry{Hệ}{hô hấp}{Respiratory system}
+\entry{Hệ mặt trời}{Solar system}
+\multientry{Hệ}{miễn dịch}{Immune system}
+\multientry{Hệ}{nội tiết}{Endocrine system}
+\multientry{Hệ}{sinh sản}{Reproductive system}
+\entry{Hệ sinh thái}{Ecosystem}
+\multientry{Hệ}{thần kinh}{Nervous system}
+\multientry{Hệ}{thống không gian}{Space Systems}
+\multientry{Hệ}{thống tuần hoàn}{Circulatory system}
+\multientry{Hệ}{tiêu hóa}{Digestive system}
+\entry{Hệ xương}{Skeletal system}
+\multientry{Hiệu}{ứng nhà kính}{Greenhouse effect}
+\entry{Hóa thạch}{Fossil}
+\entry{Hô hấp}{Respiration}
+\multientry{Hồ}{sơ/ghi chép về hóa thạch}{Fossil record}
+\entry{Hỗn hợp}{Mixture}
+\entry{Hơi nóng}{Heat}
+\entry{Hơi nước}{Water vapor}
+\entry{Hợp chất}{Compound}
+\entry{Hợp tác}{Cooperation}
+\section*{I}
+\entry{Ion}{Ion}
+\section*{J}
+\entry{Joule}{Joule}
+\section*{K}
+\entry{Kết luận}{Conclusion}
+\entry{Khí}{Gas}
+\entry{Khí hậu}{Climate}
+\entry{Khí quyển}{Atmosphere}
+\multientry{Khoa}{học Trái Đất và không gian}{Earth and Space Sciences}
+\multientry{Khoa}{học vật lý}{Physical Sciences}
+\multientry{Khoa}{học đời sống}{Life Sciences}
+\entry{Khoáng vật}{Mineral}
+\entry{Không bào}{Vacuoles}
+\multientry{Không}{trọng lực}{Zero gravity}
+\entry{Không độ}{Zero degrees}
+\entry{Khối lượng}{Mass}
+\multientry{Khối}{lượng nguyên tử}{Atomic mass}
+\entry{Khủng long}{Dinosaur}
+\multientry{Kiến}{tạo địa tầng}{Plate tectonics}
+\entry{Kiểm soát}{Control}
+\entry{Kiểu gen}{Genotype}
+\entry{Kiểu hình}{Phenotype}
+\multientry{Kim}{tự tháp năng lượng}{Energy pyramid}
+\entry{Kích thích}{Stimulus}
+\entry{Kính hiển vi}{Microscope}
+\entry{Kính viễn vọng}{Telescope}
+\entry{Ký sinh trùng}{Parasite}
+\multientry{Kỹ}{thuật gen}{Genetic engineering}
+\section*{L}
+\entry{Lăng kính}{Prism}
+\entry{Lặn}{Recessive}
+\multientry{Liên}{kết cộng hóa}{Covalent bond}
+\multientry{Liên}{kết hóa học}{Chemical bond}
+\entry{Liên kết ion}{Ionic bond}
+\multientry{Liên}{kết kim loại}{Metallic bond}
+\entry{Lít}{Liter}
+\entry{Loài}{Species}
+\entry{Lốc xoáy}{Tornado}
+\multientry{Luật}{(khoa học)}{Law (scientific)}
+\multientry{Luật}{bảo toàn năng lượng}{Law of conservation of energy}
+\multientry{Lưới}{nội chất}{Endoplasmic reticulum}
+\entry{Lưỡi liềm}{Wedge}
+\entry{Lưỡng cư}{Amphibian}
+\entry{Lực}{Force}
+\entry{Lực nổi}{Buoyancy}
+\multientry{Lực}{và tương tác}{Forces and Interactions}
+\entry{Lý thuyết}{Theory}
+\section*{M}
+\entry{Ma sát}{Friction}
+\entry{Màng tế bào}{Cell membrane}
+\entry{Máy biến áp}{Transformer}
+\multientry{Máy}{phức hợp}{Compound machine}
+\multientry{Máy}{đo tốc độ gió}{Anemometer}
+\multientry{Máy}{đơn giản}{Simple machine}
+\entry{Mây quyển}{Cirrus clouds}
+\entry{Mây tầng}{Stratus clouds}
+\entry{Mây tích}{Cumulus clouds}
+\multientry{Mạch}{nối song song}{Parallel circuit}
+\multientry{Mạch}{nối tiếp}{Series circuit}
+\entry{Mạch điện}{Circuit}
+\multientry{Mạng}{lưới thức ăn}{Food web}
+\entry{Mật hoa}{Nectar}
+\entry{Mật độ}{Density}
+\multientry{Mặt}{phẳng nghiêng}{Incline plane}
+\entry{Mặt trời}{Sun}
+\entry{Men}{Yeast}
+\entry{Mét}{Meter}
+\entry{Mô}{Tissue}
+\entry{Mô gỗ}{Xylem}
+\entry{Mô hình}{Model}
+\multientry{Mô}{hình và chu kỳ}{Patterns and Cycles}
+\entry{Môi trường sống}{Habitat}
+\multientry{Mối}{quan hệ tương phụ trong hệ sinh thái}{Interdependent Relationships in Ecosystems}
+\section*{N}
+\entry{Nấm}{Fungi}
+\entry{Năng lượng}{Energy}
+\multientry{Năng}{lượng ánh sáng}{Light energy}
+\multientry{Năng}{lượng âm thanh}{Sound energy}
+\multientry{Năng}{lượng bức xạ}{Radiant energy}
+\multientry{Năng}{lượng cơ học}{Mechanical energy}
+\multientry{Năng}{lượng gió}{Wind energy}
+\multientry{Năng}{lượng hạt nhân}{Nuclear energy}
+\multientry{Năng}{lượng hóa học}{Chemical energy}
+\multientry{Năng}{lượng mặt trời}{Solar energy}
+\multientry{Năng}{lượng tiềm năng}{Potential energy}
+\multientry{Năng}{lượng điện}{Electrical energy}
+\multientry{Năng}{lượng địa nhiệt}{Geothermal energy}
+\entry{Neutron}{Neutron}
+\entry{Ngân hà}{Galaxy}
+\entry{Nguyên phân}{Mitosis}
+\entry{Nguyên tố}{Element}
+\entry{Nguyên tử}{Atom}
+\entry{Ngủ đông}{Dormant}
+\entry{Người sản xuất}{Producer}
+\entry{Người tiêu thụ}{Consumer}
+\multientry{Người}{tiêu thụ bậc bốn}{Quaternary consumer}
+\multientry{Người}{tiêu thụ cấp ba}{Tertiary consumer}
+\multientry{Người}{tiêu thụ chủ yếu}{Primary consumer}
+\multientry{Người}{tiêu thụ thứ cấp}{Secondary consumer}
+\entry{Người trưởng thành}{Adult}
+\multientry{Người/}{con vật thụ phấn}{Pollinator}
+\entry{Ngụy trang}{Camouflage}
+\entry{Nham thạch}{Lava}
+\multientry{Nhà}{khí tượng học}{Meteorologist}
+\multientry{Nhân}{}{Nucleus (of a nucleus)}
+\entry{Nhân bản}{Cloning}
+\multientry{Nhân}{tế bào}{Nucleus(of a cell)}
+\entry{Nhiên liệu}{Fuel}
+\multientry{Nhiên}{liệu hóa thạch}{Fossil fuel}
+\multientry{Nhiều}{nhiễm sắc thể}{Chromosomes}
+\entry{Nhiễm sắc thể}{Chromosome}
+\entry{Nhiệt kế}{Thermometer}
+\entry{Nhiệt năng}{Thermal energy}
+\entry{Nhiệt độ}{Temperature}
+\entry{Nhộng}{Pupa}
+\multientry{Những}{phản ứng hóa học}{Chemical Reactions}
+\multientry{Những}{tiểu lục phân tử}{Chloroplasts}
+\entry{Núi lửa}{Volcano}
+\entry{Nước ngầm}{Groundwater}
+\section*{O}
+\entry{Oxy}{Oxygen}
+\section*{P}
+\entry{Phân hữu cơ}{Compost}
+\entry{Phân tử}{Molecule}
+\entry{Phả hệ}{Pedigree}
+\entry{Phản ứng}{Response}
+\multientry{Phản}{ứng hóa học}{Chemical reaction}
+\entry{Phi sinh học}{Abiotic}
+\entry{Phong hóa}{Weathering}
+\entry{Phóng xạ}{Radiation}
+\entry{Phổ}{Spectrum}
+\multientry{Phương}{trình cân bằng}{Balanced equation}
+\entry{Pin, Ắc quy}{Battery}
+\entry{Proton}{Proton}
+\section*{Q}
+\multientry{Quan}{hệ cộng sinh}{Commensalism}
+\entry{Quan sát}{Observation}
+\entry{Quang hợp}{Photosynthesis}
+\entry{Quay}{Rotate}
+\multientry{Quán}{tính/ Sự bất động}{Inertia}
+\multientry{Quy}{trình hình thành Trái Đất}{Processes that Shape the Earth}
+\entry{Quỹ đạo}{Orbit}
+\section*{R}
+\entry{Ribosome}{Ribosomes}
+\multientry{Rối}{loạn di truyền}{Genetic disorder}
+\section*{S}
+\entry{Sao}{Star}
+\entry{Sao băng}{Meteor}
+\entry{Sao chổi}{Comet}
+\multientry{Sao}{và hệ mặt trời}{Stars and the Solar System}
+\entry{Sản phẩm}{Product}
+\entry{Sinh quyển}{Biome}
+\entry{Sinh vật}{Organism}
+\multientry{Sinh}{vật nhân sơ}{Prokaryotic}
+\entry{Sóng}{Wave}
+\entry{Sóng âm}{Sound wave}
+\entry{Sóng thần}{Tidal wave}
+\multientry{Sóng}{và bức xạ điện từ}{Waves and Electromagnetic Radiation}
+\multientry{Sóng}{và thông tin}{Waves and Information}
+\multientry{Số}{nguyên tử}{Atomic number}
+\multientry{Sức}{chứa}{Carrying capacity}
+\multientry{Sự}{/ phép đo lường}{Measurement}
+\entry{Sự bay hơi}{Evaporation}
+\entry{Sự bài tiết}{Excretion}
+\entry{Sự bắt chước}{Mimicry}
+\entry{Sự bảo tồn}{Conservation}
+\multientry{Sự}{bền vững con người}{Human Sustainability}
+\multientry{Sự}{biến đổi hình thái}{Metamorphosis}
+\multientry{Sự}{biến đổi hóa học}{Chemical change}
+\multientry{Sự}{bốc hơi/ Sự thoát hơi nước}{Transpiration}
+\entry{Sự cản trở}{Resistance}
+\entry{Sự cạnh tranh}{Competition}
+\multientry{Sự}{chuyển năng lượng}{Energy transfer}
+\entry{Sự cộng sinh}{Symbiosis}
+\entry{Sự dẫn nhiệt}{Conduction}
+\entry{Sự hấp thụ}{Absorption}
+\multientry{Sự}{hô hấp tế bào}{Cellular respiration}
+\entry{Sự kết tủa}{Deposition}
+\multientry{Sự}{kháng cự không khí}{Air resistance}
+\entry{Sự khúc xạ}{Refraction}
+\entry{Sự kí sinh}{Parasitism}
+\multientry{Sự}{lai tạo chọn lọc}{Selective breeding}
+\multientry{Sự}{lan truyền hạt giống}{Seed dispersal}
+\entry{Sự lên men}{Fermentation}
+\entry{Sự loãng đi}{Rarefaction}
+\entry{Sự lột xác}{Molting}
+\entry{Sự nảy mầm}{Germination}
+\multientry{Sự}{nảy mầm của hạt}{Seed germination}
+\entry{Sự nén}{Compression}
+\entry{Sự ngưng tụ}{Condensation}
+\entry{Sự nuốt vào}{Ingestion}
+\entry{Sự ô nhiễm}{Pollution}
+\entry{Sự phát triển}{Growth}
+\entry{Sự phát triển}{Development}
+\multientry{Sự}{phân loại}{Classification}
+\entry{Sự phản xạ}{Reflection}
+\entry{Sự sinh sản}{Reproduction}
+\entry{Sự thải ra}{Egestion}
+\entry{Sự thích nghi}{Adaptation}
+\entry{Sự thụ phấn}{Pollination}
+\entry{Sự thụ tinh}{Fertilization}
+\entry{Sự tiêu hóa}{Digestion}
+\entry{Sự tiến hóa}{Evolution}
+\multientry{Sự}{trú ẩn/ ngủ đông}{Hibernation}
+\entry{Sự xói mòn}{Erosion}
+\multientry{Sự}{đa dạng sinh học}{Biodiversity}
+\entry{Sự điều tra}{Investigation}
+\section*{T}
+\entry{Tan}{Dissolve}
+\multientry{Tài}{nguyên không tái tạo}{Nonrenewable resource}
+\multientry{Tài}{nguyên tái tạo}{Renewable resource}
+\multientry{Tài}{nguyên tự nhiên}{Natural resource}
+\multientry{Tác}{động của con người}{Human Impacts}
+\entry{Tái chế}{Recycle}
+\entry{Tần suất}{Frequency}
+\entry{Tầng ôzôn}{Ozone}
+\entry{Tầng đối lưu}{Troposphere}
+\multientry{Tấm}{năng lượng mặt trời}{Solar panel}
+\entry{Tảo}{Algae}
+\entry{Tế bào}{Cell}
+\multientry{Tế}{bào động vật}{Animal cell}
+\entry{Thang đo pH}{pH scale}
+\entry{Thấu kính}{Lens}
+\entry{Thể loại}{Category}
+\entry{Thể tích}{Volume}
+\multientry{Thiết}{kế kỹ thuật}{Engineering Design}
+\entry{Thí nghiệm}{Experiment}
+\entry{Thời tiết}{Weather}
+\multientry{Thời}{tiết và khí hậu}{Weather and Climate}
+\entry{Thuộc nước}{Aquatic}
+\entry{Thuộc sinh học}{Biotic}
+\entry{Thuỷ triều}{Tide}
+\multientry{Thủy}{điện}{Hydroelectricity}
+\multientry{Thực}{vật trưởng thành}{Adult plant}
+\entry{Tia tử ngoại}{Ultraviolet}
+\multientry{Tiểu}{bào chất}{Mitochondria}
+\multientry{Tiểu}{bào lysosomes}{Lysosomes}
+\multientry{Tiểu}{lục phân tử}{Chloroplast}
+\entry{Tổ tiên}{Ancestor}
+\multientry{Trạng}{thái vật chất}{States of matter}
+\entry{Trọng lượng}{Weight}
+\entry{Trọng lực}{Gravity}
+\entry{Trội / Ưu thế}{Dominant}
+\entry{Trung tính}{Neutral}
+\entry{Trứng}{Egg}
+\entry{Trục}{Axis}
+\entry{Tuabin gió}{Wind turbine}
+\entry{Tuần hoàn}{Circulation}
+\entry{Tuyệt chủng}{Extinct}
+\entry{Tường tế bào}{Cell wall}
+\entry{Từ tính}{Magnetism}
+\section*{V}
+\entry{Vật cách điện}{Insulator}
+\entry{Vật chất}{Matter}
+\multientry{Vật}{chất và năng lượng trong sinh vật và hệ sinh thái}{Matter and Energy in Organisms and Ecosystems}
+\entry{Vật dẫn nhiệt}{Conductor}
+\multientry{Vật/người}{phân giải}{Decomposer}
+\entry{Vệ tinh}{Satellite}
+\entry{Vi khuẩn}{Bacteria}
+\entry{Vi kích}{Microscopic}
+\entry{Vi sinh vật}{Microorganism}
+\multientry{Vị}{trí sinh thái / Thích hợp}{Niche}
+\entry{Vỏ (Trái Đất)}{Crust}
+\multientry{Vùng}{(khí hậu và lớp của Trái Đất)}{Zone (climate and layers of the Earth)}
+\multientry{Vùng}{đất ngập nước}{Wetland}
+\entry{Vũ trụ}{Universe}
+\entry{Vụn sao}{Nebula}
+\section*{X}
+\entry{Xác suất}{Probability}
+\entry{Xoay vòng}{Revolve}
+\section*{Y}
+\multientry{Yếu}{tố hạn chế}{Limiting factor}
+\multientry{Yếu}{tố phi sinh học}{Abiotic factors}
+\multientry{Yếu}{tố sinh học}{Biotic factors}
+\section*{Á}
+\entry{Ánh sáng}{Light}
+\section*{Đ}
+\multientry{Đá}{biến chất / biến dạng}{Metamorphic rock}
+\multientry{Đá}{nham thạch}{Igneous rock}
+\multientry{Đá}{trầm tích}{Sedimentary rock}
+\multientry{Đẩy}{và kéo}{Pushes and Pulls}
+\entry{Đặc điểm}{Trait}
+\multientry{Đặc}{điểm di truyền}{Inherited trait}
+\multientry{Đặc}{điểm nhận được}{Acquired trait}
+\entry{Điểm sôi}{Boiling point}
+\entry{Điện áp}{Voltage}
+\entry{Đinh ốc}{Screw}
+\entry{Đòn bẩy}{Lever}
+\entry{Đồng hợp tử}{Homozygous}
+\entry{Đồng vị}{Isotope}
+\entry{Đối lưu}{Convection}
+\entry{Độ C (Celsius)}{Celsius}
+\entry{Động năng}{Kinetic energy}
+\entry{Động vật ăn cỏ}{Herbivore}
+\entry{Động vật ăn tạp}{Omnivore}
+\multientry{Động}{vật ăn thịt}{Carnivore}
+\entry{Động vật ăn xác}{Scavenger}
+\entry{Động vật có vú}{Mammal}
+\multientry{Động}{vật có xương sống}{Vertebrate}
+\entry{Động vật học}{Zoology}
+\multientry{Động}{vật không xương sống}{Invertebrate}
+\entry{Động vật săn mồi}{Predator}
+\multientry{Động}{vật/ Sinh vật có nhân thật}{Eukaryotic}
+\entry{Động đất}{Earthquake}
+\entry{Đột biến}{Mutation}
+\section*{Ấ}
+\entry{Ấu trùng}{Larva}
+\end{multicols}
+\backmatter
+\end{document}

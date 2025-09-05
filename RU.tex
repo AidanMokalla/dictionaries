@@ -1,0 +1,909 @@
+\documentclass[a5paper,10pt]{book}
+
+% Font and language support
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{russian}
+
+% Try to use a system font that supports Cyrillic
+\setmainfont{Times New Roman}
+\newfontfamily\cyrillicfont{Times New Roman}[Script=Cyrillic]
+
+% If Times New Roman is not available, uncomment the following lines:
+% \setmainfont{CMU Serif}
+% \newfontfamily\cyrillicfont{CMU Serif}[Script=Cyrillic]
+
+% Layout and typography
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{lettrine}
+% Rest of your preamble remains the same
+
+
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\entry}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X@{}r@{}}
+    \textbf{#1}\dotfill & #2 \\
+  \end{tabularx}
+}
+
+\newcommand{\multientry}[3]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X@{}r@{}}
+    \textbf{#1}  \textbf{ #2} & \\[-0.5ex]
+    \dotfill  #3 \\
+  \end{tabularx}
+}
+
+\begin{document}
+
+\frontmatter
+\title{Portland Public Middle School Science Curricula Translation Dictionary \\ Русского – English}
+\author{Aidan Mokalla}
+\date{\today}
+\maketitle
+\tableofcontents
+\mainmatter
+\chapter{From English to Russian}
+\begin{multicols}{2}
+\section*{A}
+\entry{Abiotic}{Абиотический}
+\multientry{Abiotic}{factors}{Абиотические факторы}
+\entry{Absorption}{Поглощение}
+\entry{Acid}{Кислота}
+\multientry{Acquired}{trait}{Приобретенные признаки}
+\entry{Adaptation}{Адаптация}
+\entry{Adult}{Взрослый}
+\multientry{Adult}{plant}{Взрослое растение}
+\multientry{Air}{resistance}{Сопротивление воздуха}
+\entry{Algae}{Водоросли}
+\entry{Allele}{Аллель}
+\entry{Amphibian}{Земноводные}
+\entry{Amplitude}{Амплитуда}
+\entry{Ancestor}{Предок}
+\entry{Anemometer}{Анемометр}
+\multientry{Animal}{cell}{Животная клетка}
+\entry{Aquatic}{Водный}
+\entry{Area}{Площадь}
+\entry{Atmosphere}{Атмосфера}
+\entry{Atom}{Атом}
+\entry{Atomic mass}{Атомная масса}
+\multientry{Atomic}{number}{Атомный номер}
+\entry{Axis}{Ось}
+\section*{B}
+\entry{Bacteria}{Бактерии}
+\entry{Balance scale}{Весы}
+\multientry{Balanced}{equation}{Уравновешенное уравнение}
+\entry{Barometer}{Барометр}
+\entry{Base}{Основание}
+\entry{Battery}{Батарея}
+\multientry{Biodegradable}{}{Биоразлагаемый}
+\multientry{Biodiversity}{}{Биоразнообразие}
+\entry{Biome}{Биома}
+\entry{Biotic}{Биотический}
+\multientry{Biotic}{factors}{Биотические факторы}
+\multientry{Boiling}{point}{Точка кипения}
+\entry{Buoyancy}{Плавучесть}
+\section*{C}
+\entry{Camouflage}{Маскировка}
+\entry{Carnivore}{Плотоядное}
+\multientry{Carrying}{capacity}{Грузоподъемность}
+\entry{Category}{Категория}
+\entry{Cell}{Клетка}
+\multientry{Cell}{membrane}{Клеточная мембрана}
+\multientry{Cell}{wall}{Клеточная стенка}
+\multientry{Cellular}{respiration}{Клеточное дыхание}
+\entry{Celsius}{Цельсий}
+\multientry{Chemical}{bond}{Химическая связь}
+\multientry{Chemical}{change}{Химическое изменение}
+\multientry{Chemical}{energy}{Химическая энергия}
+\multientry{Chemical}{reaction}{Химическая реакция}
+\multientry{Chemical}{Reactions}{Химические реакции}
+\entry{Chlorophyll}{Хлорофилл}
+\entry{Chloroplast}{Хлоропласт}
+\entry{Chloroplasts}{Хлоропласты}
+\entry{Chromosome}{Хромосома}
+\entry{Chromosomes}{Хромосомы}
+\entry{Circuit}{Цепь}
+\entry{Circulation}{Циркуляция}
+\multientry{Circulatory}{system}{Сердечно-сосудистая система}
+\multientry{Cirrus}{clouds}{Циррусные облака}
+\multientry{Classification}{}{Классификация}
+\entry{Climate}{Климат}
+\entry{Cloning}{Клонирование}
+\entry{Comet}{Комета}
+\entry{Commensalism}{Комменсализм}
+\entry{Community}{Сообщество}
+\entry{Competition}{Конкуренция}
+\entry{Compost}{Компост}
+\entry{Compound}{Соединение}
+\multientry{Compound}{machine}{Составная машина}
+\entry{Compression}{Сжатие}
+\entry{Conclusion}{Заключение}
+\entry{Condensation}{Конденсация}
+\entry{Conduction}{Проводимость}
+\entry{Conductor}{Проводник}
+\entry{Conservation}{Консервация}
+\multientry{Conservation}{of mass}{Закон сохранения массы}
+\entry{Constellation}{Созвездие}
+\entry{Consumer}{Потребитель}
+\entry{Control}{Контроль}
+\entry{Convection}{Конвекция}
+\multientry{Cooperation}{}{Сотрудничество}
+\multientry{Covalent}{bond}{Ковалентная связь}
+\entry{Crust}{Кора}
+\multientry{Cumulus}{clouds}{Кумулюсные облака}
+\entry{Current}{Ток}
+\multientry{Current}{(electrical and ocean)}{Ток}
+\entry{Cycle}{Цикл}
+\entry{Cytoplasm}{Цитоплазма}
+\section*{D}
+\entry{Data}{Данные}
+\entry{Decomposer}{Разлагатель}
+\entry{Density}{Плотность}
+\multientry{Deposition}{}{Осадочное образование}
+\entry{Descendant}{Потомок}
+\entry{Development}{Разработка}
+\entry{Digestion}{Пищеварение}
+\multientry{Digestive}{system}{Пищеварительная система}
+\entry{Dinosaur}{Динозавр}
+\entry{Dissolve}{Растворять}
+\entry{DNA}{ДНК}
+\entry{Dominant}{Доминантный}
+\entry{Dormant}{Спящий}
+\section*{E}
+\multientry{Earth}{and Space Sciences}{Науки о Земле и космосе}
+\entry{Earthquake}{Землетрясение}
+\entry{Ecosystem}{Экосистема}
+\entry{Egestion}{Экскреция}
+\entry{Egg}{Яйцо}
+\multientry{Electrical}{energy}{Электрическая энергия}
+\entry{Electron}{Электрон}
+\entry{Element}{Элемент}
+\multientry{Endocrine}{system}{Эндокринная система}
+\multientry{Endoplasmic}{reticulum}{Эндоплазматическая сеть}
+\entry{Energy}{Энергия}
+\multientry{Energy}{pyramid}{Пирамида энергии}
+\multientry{Energy}{transfer}{Передача энергии}
+\multientry{Engineering}{Design}{Инженерное проектирование}
+\entry{English}{Russian}
+\entry{Erosion}{Эрозия}
+\entry{Eukaryotic}{Эукариота}
+\entry{Evaporation}{Испарение}
+\entry{Evolution}{Эволюция}
+\entry{Excretion}{Экскреция}
+\multientry{Excretory}{system}{Экскреторная система}
+\entry{Experiment}{Эксперимент}
+\entry{Extinct}{Вымерший}
+\section*{F}
+\entry{Fermentation}{Ферментация}
+\multientry{Fertilization}{}{Оплодотворение}
+\entry{Food chain}{Пищевая цепь}
+\entry{Food web}{Пищевая сеть}
+\entry{Force}{Сила}
+\multientry{Forces}{and Interactions}{Силы и взаимодействия}
+\entry{Fossil}{Ископаемое}
+\multientry{Fossil}{fuel}{Ископаемое топливо}
+\multientry{Fossil}{record}{Ископаемое доказательство}
+\entry{Frequency}{Частота}
+\entry{Friction}{Трение}
+\entry{Fuel}{Топливо}
+\entry{Fungi}{Грибы}
+\section*{G}
+\entry{Galaxy}{Галактика}
+\entry{Gas}{Газ}
+\entry{Gene}{Ген}
+\multientry{Genetic}{disorder}{Генетическое заболевание}
+\multientry{Genetic}{engineering}{Генная инженерия}
+\entry{Genetics}{Генетика}
+\entry{Genotype}{Генотип}
+\multientry{Geothermal}{energy}{Геотермальная энергия}
+\entry{Germination}{Прорастание}
+\multientry{Golgi}{apparatus}{Аппарат Гольджи}
+\entry{Gram}{Грамм}
+\entry{Gravity}{Гравитация}
+\multientry{Greenhouse}{effect}{Парниковый эффект}
+\multientry{Groundwater}{}{Грунтовые воды}
+\entry{Growth}{Рост}
+\section*{H}
+\entry{Habitat}{Среда обитания}
+\entry{Heat}{Тепло}
+\entry{Herbivore}{Травоядные}
+\entry{Heredity}{Наследственность}
+\multientry{Heterozygous}{}{Гетерозиготный}
+\entry{Hibernation}{Зимовка}
+\entry{Homeostasis}{Гомеостаз}
+\entry{Homozygous}{Гомозиготный}
+\multientry{Human}{Impacts}{Воздействие человека}
+\multientry{Human}{Sustainability}{Устойчивость человечества}
+\multientry{Hydroelectricity}{}{Гидроэлектроэнергия}
+\entry{Hypothesis}{Гипотеза}
+\section*{I}
+\multientry{Igneous}{rock}{Игнейский породы}
+\multientry{Immune}{system}{Иммунная система}
+\multientry{Incline}{plane}{Наклонная плоскость}
+\entry{Indicator}{Индикатор}
+\entry{Inertia}{Инерция}
+\entry{Ingestion}{Поглощение}
+\multientry{Inheritance}{and Variation of Traits}{Наследование и вариабельность признаков}
+\multientry{Inherited}{trait}{Наследственный признак}
+\entry{Insect}{Насекомое}
+\entry{Instinct}{Инстинкт}
+\entry{Insulator}{Изолятор}
+\multientry{Interdependent}{Relationships in Ecosystems}{Взаимозависимые отношения в экосистемах}
+\multientry{Invertebrate}{}{Беспозвоночные}
+\multientry{Investigation}{}{Расследование}
+\entry{Ion}{Ион}
+\entry{Ionic bond}{Ионная связь}
+\entry{Isotope}{Изотоп}
+\section*{J}
+\multientry{Jet}{stream}{Струйное течение}
+\entry{Joule}{Джоуль}
+\section*{K}
+\multientry{Kinetic}{energy}{Кинетическая энергия}
+\section*{L}
+\entry{Larva}{Личинка}
+\entry{Lava}{Лава}
+\multientry{Law}{(scientific)}{Закон (научный)}
+\multientry{Law}{of conservation of energy}{Закон сохранения энергии}
+\entry{Lens}{Линза}
+\entry{Lever}{Рычаг}
+\entry{Life cycle}{Жизненный цикл}
+\multientry{Life}{Cycles and Traits}{Жизненные циклы и признаки}
+\multientry{Life}{Sciences}{Биологические науки}
+\entry{Light}{Свет}
+\multientry{Light}{energy}{Световая энергия}
+\multientry{Limiting}{factor}{Ограничивающий фактор}
+\entry{Liquid}{Жидкость}
+\entry{Liter}{Литр}
+\entry{Lysosomes}{Лизосомы}
+\section*{M}
+\entry{Magnetism}{Магнетизм}
+\entry{Mammal}{Млекопитающие}
+\entry{Mass}{Масса}
+\entry{Matter}{Вещество}
+\multientry{Matter}{and Energy in Organisms and Ecosystems}{Вещество и энергия в организмах и экосистемах}
+\entry{Measurement}{Измерение}
+\multientry{Mechanical}{energy}{Механическая энергия}
+\entry{Meiosis}{Мейоз}
+\multientry{Metallic}{bond}{Металлическая связь}
+\multientry{Metamorphic}{rock}{Метаморфические породы}
+\entry{Metamorphosis}{Метаморфоза}
+\entry{Meteor}{Метеор}
+\entry{Meteorologist}{Метеоролог}
+\entry{Meter}{Метр}
+\multientry{Microorganism}{}{Микроорганизм}
+\entry{Microscope}{Микроскоп}
+\multientry{Microscopic}{}{Микроскопический}
+\entry{Migration}{Миграция}
+\entry{Mimicry}{Мимикрия}
+\entry{Mineral}{Минерал}
+\entry{Mitochondria}{Митохондрии}
+\entry{Mitosis}{Митоз}
+\entry{Mixture}{Смесь}
+\entry{Model}{Модель}
+\entry{Molecule}{Молекула}
+\entry{Molting}{Линька}
+\entry{Moon phase}{Фаза луны}
+\multientry{Muscular}{system}{Мышечная система}
+\entry{Mutation}{Мутация}
+\entry{Mutualism}{Мутуализм}
+\section*{N}
+\multientry{Natural}{resource}{Природный ресурс}
+\multientry{Natural}{selection}{Естественный отбор}
+\multientry{Natural}{Selection and Adaptations}{Естественный отбор и адаптации}
+\multientry{Natural}{Selection and Evolution}{Естественный отбор и эволюция}
+\entry{Nebula}{Туманность}
+\entry{Nectar}{Нектар}
+\multientry{Nervous}{system}{Нервная система}
+\entry{Neutral}{Нейтральный}
+\entry{Neutron}{Нейтрон}
+\entry{Niche}{Экологическая ниша}
+\multientry{Nitrogen}{cycle}{Азотный цикл}
+\multientry{Nonrenewable}{resource}{Невозобновляемый ресурс}
+\multientry{Nuclear}{energy}{Ядерная энергия}
+\multientry{Nucleus}{(of a nucleus)}{Ядро}
+\entry{Nucleus (of a cell)}{Ядро}
+\entry{Nymph}{Нимфа}
+\section*{O}
+\entry{Observation}{Наблюдение}
+\entry{Offspring}{Потомство}
+\entry{Omnivore}{Всеядное}
+\entry{Orbit}{Орбита}
+\entry{Organ}{Орган}
+\multientry{Organ}{system}{Органная система}
+\entry{Organism}{Организм}
+\entry{Ovary}{Яичник}
+\entry{Oxygen}{Кислород}
+\entry{Ozone}{Озон}
+\section*{P}
+\multientry{Parallel}{circuit}{Параллельная цепь}
+\entry{Parasite}{Паразит}
+\entry{Parasitism}{Паразитизм}
+\entry{Parent}{Родитель}
+\entry{Particle}{Частица}
+\multientry{Patterns}{and Cycles}{Шаблоны и циклы}
+\entry{Pedigree}{Родословная}
+\entry{Perimeter}{Периметр}
+\multientry{Periodic}{table}{Периодическая таблица}
+\entry{pH scale}{Шкала pH}
+\entry{Phenotype}{Фенотип}
+\entry{Photosynthesis}{Фотосинтез}
+\multientry{Physical}{change}{Физическое изменение}
+\multientry{Physical}{Sciences}{Физические науки}
+\entry{Planet}{Планета}
+\multientry{Plate}{tectonics}{Тектоника плит}
+\entry{Pollination}{Опыление}
+\entry{Pollinator}{Опылитель}
+\entry{Pollution}{Загрязнение}
+\entry{Population}{Население}
+\multientry{Potential}{energy}{Потенциальная энергия}
+\entry{Predator}{Хищник}
+\entry{Prey}{Добыча}
+\multientry{Primary}{consumer}{Первичный потребитель}
+\entry{Prism}{Призма}
+\entry{Probability}{Вероятность}
+\multientry{Processes}{that Shape the Earth}{Процессы, формирующие Землю}
+\entry{Producer}{Производитель}
+\entry{Product}{Продукт}
+\entry{Prokaryotic}{Прокариоты}
+\entry{Proton}{Протон}
+\entry{Pulley}{Шкив}
+\multientry{Punnett}{square}{Квадрат Паннетта}
+\entry{Pupa}{Куколка}
+\multientry{Pushes}{and Pulls}{Толчки и тяги}
+\section*{Q}
+\multientry{Quaternary}{consumer}{Четвертичный потребитель}
+\section*{R}
+\multientry{Radiant}{energy}{Излучательная энергия}
+\entry{Radiation}{Радиация}
+\entry{Rain shadow}{Дождевая тень}
+\entry{Rarefaction}{Разрежение}
+\entry{Reactant}{Реагент}
+\entry{Recessive}{Рецессивный}
+\entry{Recycle}{Переработка}
+\entry{Reflection}{Отражение}
+\entry{Refraction}{Преломление}
+\multientry{Renewable}{resource}{Возобновляемый ресурс}
+\entry{Reproduction}{Размножение}
+\multientry{Reproductive}{system}{Репродуктивная система}
+\entry{Reptile}{Пресмыкающиеся}
+\entry{Resistance}{Сопротивление}
+\entry{Respiration}{Дыхание}
+\multientry{Respiratory}{system}{Дыхательная система}
+\entry{Response}{Ответ}
+\entry{Revolve}{Вращаться}
+\entry{Ribosomes}{Рибосомы}
+\entry{RNA}{РНК}
+\entry{Rotate}{Поворачиваться}
+\section*{S}
+\entry{Satellite}{Спутник}
+\entry{Scavenger}{Стервятник }
+\entry{Screw}{Винт}
+\multientry{Secondary}{consumer}{Вторичный потребитель}
+\multientry{Sedimentary}{rock}{Осадочная порода}
+\multientry{Seed}{dispersal}{Разнос семян}
+\multientry{Seed}{germination}{Прорастание семян}
+\entry{Seedling}{Росток}
+\multientry{Selective}{breeding}{Выборочное разведение }
+\multientry{Series}{circuit}{Последовательное соединение }
+\multientry{Simple}{machine}{Простая машина}
+\multientry{Skeletal}{system}{Скелетная система}
+\multientry{Solar}{energy}{Солнечная энергия}
+\multientry{Solar}{panel}{Солнечная батарея }
+\multientry{Solar}{system}{Солнечная система}
+\entry{Solid}{Твердое тело}
+\multientry{Solute}{}{Растворимое вещество}
+\entry{Solution}{Раствор}
+\entry{Solvent}{Растворитель}
+\multientry{Sound}{energy}{Звуковая энергия}
+\entry{Sound wave}{Звуковая волна}
+\multientry{Space}{Systems}{Космические системы}
+\entry{Species}{Вид}
+\entry{Spectrum}{Спектр}
+\multientry{Spring}{scale}{Пружинные весы}
+\entry{Star}{Звезда}
+\multientry{Stars}{and the Solar System}{Звезды и солнечная система}
+\multientry{States}{of matter}{Агрегатное состояние }
+\entry{Stimulus}{Стимул}
+\multientry{Stratus}{clouds}{Слоистые облака}
+\multientry{Structure}{and Function}{Структура и функция}
+\multientry{Structure}{and Properties of Matter}{Структура и свойства вещества}
+\entry{Sun}{Солнце}
+\entry{Symbiosis}{Симбиоз}
+\section*{T}
+\multientry{Tectonic}{plates}{Тектонические плиты}
+\entry{Telescope}{Телескоп}
+\entry{Temperature}{Температура}
+\multientry{Tertiary}{consumer}{Третичный потребитель}
+\entry{Theory}{Теория}
+\multientry{Thermal}{energy}{Тепловая энергия}
+\entry{Thermometer}{Термометр}
+\multientry{Tidal}{wave}{Приливная волна}
+\entry{Tide}{Прилив}
+\entry{Tissue}{Ткань}
+\entry{Tornado}{Торнадо}
+\entry{Trait}{Признак}
+\multientry{Transformer}{}{            Трансформатор }
+\multientry{Transpiration}{}{Транспирация}
+\entry{Tropism}{Тропизм}
+\entry{Troposphere}{Тропосфера}
+\section*{U}
+\multientry{Ultraviolet}{}{Ультрафиолетовый}
+\entry{Universe}{Вселенная}
+\section*{V}
+\entry{Vacuoles}{Вакуоли}
+\entry{Vacuum}{Вакуум}
+\entry{Variable}{Переменная}
+\entry{Variation}{Вариация}
+\entry{Vertebrate}{Позвоночные}
+\entry{Volcano}{Вулкан}
+\entry{Voltage}{Напряжение}
+\entry{Volume}{Объем}
+\section*{W}
+\entry{Water cycle}{Водный цикл}
+\entry{Water vapor}{Водяной пар}
+\entry{Wave}{Волна}
+\entry{Wavelength}{Длина волны}
+\multientry{Waves}{and Electromagnetic Radiation}{Волны и электромагнитное излучение}
+\multientry{Waves}{and Information}{Волны и информация}
+\entry{Weather}{Погода}
+\multientry{Weather}{and Climate}{Погода и климат}
+\entry{Weathering}{Выветривание}
+\entry{Wedge}{Клин}
+\entry{Weight}{Вес}
+\entry{Wetland}{Болото}
+\multientry{Wheel}{and axle}{Колесо и ось}
+\entry{Wind}{Ветер}
+\multientry{Wind}{energy}{Ветряная энергия}
+\multientry{Wind}{turbine}{Ветряная турбина}
+\entry{Work}{Работа}
+\section*{X}
+\entry{Xylem}{Ксилема}
+\section*{Y}
+\entry{Yeast}{Дрожжи}
+\section*{Z}
+\multientry{Zero}{degrees}{Ноль градусов}
+\entry{Zero gravity}{Невесомость}
+\multientry{Zone}{(climate and layers of the Earth)}{Зона (климат и слои Земли)}
+\entry{Zoology}{Зоология}
+\end{multicols}
+\chapter{С русского на английский}
+\begin{multicols}{2}
+\section*{ }
+\section*{А}
+\multientry{\textrussian{Абиотические факторы}}{}{Abiotic factors}
+\entry{\textrussian{Абиотический}}{Abiotic}
+\multientry{\textrussian{Агрегатное состояние }}{}{States of matter}
+\entry{\textrussian{Адаптация}}{Adaptation}
+\multientry{\textrussian{Азотный цикл}}{}{Nitrogen cycle}
+\entry{\textrussian{Аллель}}{Allele}
+\entry{\textrussian{Амплитуда}}{Amplitude}
+\entry{\textrussian{Анемометр}}{Anemometer}
+\multientry{\textrussian{Аппарат Гольджи}}{}{Golgi apparatus}
+\entry{\textrussian{Атмосфера}}{Atmosphere}
+\entry{\textrussian{Атом}}{Atom}
+\entry{\textrussian{Атомная масса}}{Atomic mass}
+\multientry{\textrussian{Атомный номер}}{}{Atomic number}
+\section*{Б}
+\entry{\textrussian{Бактерии}}{Bacteria}
+\entry{\textrussian{Барометр}}{Barometer}
+\entry{\textrussian{Батарея}}{Battery}
+\multientry{\textrussian{Беспозвоночные}}{}{Invertebrate}
+\multientry{\textrussian{Биологические науки}}{}{Life Sciences}
+\entry{\textrussian{Биома}}{Biome}
+\multientry{\textrussian{Биоразлагаемый}}{}{Biodegradable}
+\multientry{\textrussian{Биоразнообразие}}{}{Biodiversity}
+\multientry{\textrussian{Биотические факторы}}{}{Biotic factors}
+\entry{\textrussian{Биотический}}{Biotic}
+\entry{\textrussian{Болото}}{Wetland}
+\section*{В}
+\entry{\textrussian{Вакуоли}}{Vacuoles}
+\entry{\textrussian{Вакуум}}{Vacuum}
+\entry{\textrussian{Вариация}}{Variation}
+\entry{\textrussian{Вероятность}}{Probability}
+\entry{\textrussian{Вес}}{Weight}
+\entry{\textrussian{Весы}}{Balance scale}
+\entry{\textrussian{Ветер}}{Wind}
+\multientry{\textrussian{Ветряная турбина}}{}{Wind turbine}
+\multientry{\textrussian{Ветряная энергия}}{}{Wind energy}
+\entry{\textrussian{Вещество}}{Matter}
+\multientry{\textrussian{Вещество и энергия в организмах и экосистемах}}{}{Matter and Energy in Organisms and Ecosystems}
+\multientry{\textrussian{Взаимозависимые отношения в экосистемах}}{}{Interdependent Relationships in Ecosystems}
+\multientry{\textrussian{Взрослое растение}}{}{Adult plant}
+\entry{\textrussian{Взрослый}}{Adult}
+\entry{\textrussian{Вид}}{Species}
+\entry{\textrussian{Винт}}{Screw}
+\entry{\textrussian{Водный}}{Aquatic}
+\entry{\textrussian{Водный цикл}}{Water cycle}
+\entry{\textrussian{Водоросли}}{Algae}
+\entry{\textrussian{Водяной пар}}{Water vapor}
+\multientry{\textrussian{Воздействие человека}}{}{Human Impacts}
+\multientry{\textrussian{Возобновляемый ресурс}}{}{Renewable resource}
+\entry{\textrussian{Волна}}{Wave}
+\multientry{\textrussian{Волны и информация}}{}{Waves and Information}
+\multientry{\textrussian{Волны и электромагнитное излучение}}{}{Waves and Electromagnetic Radiation}
+\entry{\textrussian{Вращаться}}{Revolve}
+\entry{\textrussian{Вселенная}}{Universe}
+\entry{\textrussian{Всеядное}}{Omnivore}
+\multientry{\textrussian{Вторичный потребитель}}{}{Secondary consumer}
+\entry{\textrussian{Вулкан}}{Volcano}
+\multientry{\textrussian{Выборочное разведение }}{}{Selective breeding}
+\entry{\textrussian{Выветривание}}{Weathering}
+\entry{\textrussian{Вымерший}}{Extinct}
+\section*{Г}
+\entry{\textrussian{Газ}}{Gas}
+\entry{\textrussian{Галактика}}{Galaxy}
+\entry{\textrussian{Ген}}{Gene}
+\entry{\textrussian{Генетика}}{Genetics}
+\multientry{\textrussian{Генетическое заболевание}}{}{Genetic disorder}
+\multientry{\textrussian{Генная инженерия}}{}{Genetic engineering}
+\entry{\textrussian{Генотип}}{Genotype}
+\multientry{\textrussian{Геотермальная энергия}}{}{Geothermal energy}
+\multientry{\textrussian{Гетерозиготный}}{}{Heterozygous}
+\multientry{\textrussian{Гидроэлектроэнергия}}{}{Hydroelectricity}
+\entry{\textrussian{Гипотеза}}{Hypothesis}
+\entry{\textrussian{Гомеостаз}}{Homeostasis}
+\entry{\textrussian{Гомозиготный}}{Homozygous}
+\entry{\textrussian{Гравитация}}{Gravity}
+\entry{\textrussian{Грамм}}{Gram}
+\entry{\textrussian{Грибы}}{Fungi}
+\multientry{\textrussian{Грузоподъемность}}{}{Carrying capacity}
+\multientry{\textrussian{Грунтовые воды}}{}{Groundwater}
+\section*{Д}
+\entry{\textrussian{Данные}}{Data}
+\entry{\textrussian{Джоуль}}{Joule}
+\entry{\textrussian{Динозавр}}{Dinosaur}
+\entry{\textrussian{Длина волны}}{Wavelength}
+\entry{\textrussian{ДНК}}{DNA}
+\entry{\textrussian{Добыча}}{Prey}
+\entry{\textrussian{Дождевая тень}}{Rain shadow}
+\entry{\textrussian{Доминантный}}{Dominant}
+\entry{\textrussian{Дрожжи}}{Yeast}
+\entry{\textrussian{Дыхание}}{Respiration}
+\multientry{\textrussian{Дыхательная система}}{}{Respiratory system}
+\section*{Е}
+\multientry{\textrussian{Естественный отбор}}{}{Natural selection}
+\multientry{\textrussian{Естественный отбор и адаптации}}{}{Natural Selection and Adaptations}
+\multientry{\textrussian{Естественный отбор и эволюция}}{}{Natural Selection and Evolution}
+\section*{Ж}
+\multientry{\textrussian{Животная клетка}}{}{Animal cell}
+\entry{\textrussian{Жидкость}}{Liquid}
+\multientry{\textrussian{Жизненные циклы и признаки}}{}{Life Cycles and Traits}
+\entry{\textrussian{Жизненный цикл}}{Life cycle}
+\section*{З}
+\entry{\textrussian{Загрязнение}}{Pollution}
+\entry{\textrussian{Заключение}}{Conclusion}
+\multientry{\textrussian{Закон (научный)}}{}{Law (scientific)}
+\multientry{\textrussian{Закон сохранения массы}}{}{Conservation of mass}
+\multientry{\textrussian{Закон сохранения энергии}}{}{Law of conservation of energy}
+\entry{\textrussian{Звезда}}{Star}
+\multientry{\textrussian{Звезды и солнечная система}}{}{Stars and the Solar System}
+\entry{\textrussian{Звуковая волна}}{Sound wave}
+\multientry{\textrussian{Звуковая энергия}}{}{Sound energy}
+\entry{\textrussian{Землетрясение}}{Earthquake}
+\entry{\textrussian{Земноводные}}{Amphibian}
+\entry{\textrussian{Зимовка}}{Hibernation}
+\multientry{\textrussian{Зона (климат и слои Земли)}}{}{Zone (climate and layers of the Earth)}
+\entry{\textrussian{Зоология}}{Zoology}
+\section*{И}
+\multientry{\textrussian{Игнейский породы}}{}{Igneous rock}
+\multientry{\textrussian{Излучательная энергия}}{}{Radiant energy}
+\entry{\textrussian{Измерение}}{Measurement}
+\entry{\textrussian{Изолятор}}{Insulator}
+\entry{\textrussian{Изотоп}}{Isotope}
+\multientry{\textrussian{Иммунная система}}{}{Immune system}
+\entry{\textrussian{Индикатор}}{Indicator}
+\entry{\textrussian{Инерция}}{Inertia}
+\multientry{\textrussian{Инженерное проектирование}}{}{Engineering Design}
+\entry{\textrussian{Инстинкт}}{Instinct}
+\entry{\textrussian{Ион}}{Ion}
+\entry{\textrussian{Ионная связь}}{Ionic bond}
+\entry{\textrussian{Ископаемое}}{Fossil}
+\multientry{\textrussian{Ископаемое доказательство}}{}{Fossil record}
+\multientry{\textrussian{Ископаемое топливо}}{}{Fossil fuel}
+\entry{\textrussian{Испарение}}{Evaporation}
+\section*{К}
+\entry{\textrussian{Категория}}{Category}
+\multientry{\textrussian{Квадрат Паннетта}}{}{Punnett square}
+\multientry{\textrussian{Кинетическая энергия}}{}{Kinetic energy}
+\entry{\textrussian{Кислород}}{Oxygen}
+\entry{\textrussian{Кислота}}{Acid}
+\multientry{\textrussian{Классификация}}{}{Classification}
+\entry{\textrussian{Клетка}}{Cell}
+\multientry{\textrussian{Клеточная мембрана}}{}{Cell membrane}
+\multientry{\textrussian{Клеточная стенка}}{}{Cell wall}
+\multientry{\textrussian{Клеточное дыхание}}{}{Cellular respiration}
+\entry{\textrussian{Климат}}{Climate}
+\entry{\textrussian{Клин}}{Wedge}
+\entry{\textrussian{Клонирование}}{Cloning}
+\multientry{\textrussian{Ковалентная связь}}{}{Covalent bond}
+\multientry{\textrussian{Колесо и ось}}{}{Wheel and axle}
+\entry{\textrussian{Комета}}{Comet}
+\entry{\textrussian{Комменсализм}}{Commensalism}
+\entry{\textrussian{Компост}}{Compost}
+\entry{\textrussian{Конвекция}}{Convection}
+\entry{\textrussian{Конденсация}}{Condensation}
+\entry{\textrussian{Конкуренция}}{Competition}
+\entry{\textrussian{Консервация}}{Conservation}
+\entry{\textrussian{Контроль}}{Control}
+\entry{\textrussian{Кора}}{Crust}
+\multientry{\textrussian{Космические системы}}{}{Space Systems}
+\entry{\textrussian{Ксилема}}{Xylem}
+\entry{\textrussian{Куколка}}{Pupa}
+\multientry{\textrussian{Кумулюсные облака}}{}{Cumulus clouds}
+\section*{Л}
+\entry{\textrussian{Лава}}{Lava}
+\entry{\textrussian{Лизосомы}}{Lysosomes}
+\entry{\textrussian{Линза}}{Lens}
+\entry{\textrussian{Линька}}{Molting}
+\entry{\textrussian{Литр}}{Liter}
+\entry{\textrussian{Личинка}}{Larva}
+\section*{М}
+\entry{\textrussian{Магнетизм}}{Magnetism}
+\entry{\textrussian{Маскировка}}{Camouflage}
+\entry{\textrussian{Масса}}{Mass}
+\entry{\textrussian{Мейоз}}{Meiosis}
+\multientry{\textrussian{Металлическая связь}}{}{Metallic bond}
+\multientry{\textrussian{Метаморфические породы}}{}{Metamorphic rock}
+\entry{\textrussian{Метаморфоза}}{Metamorphosis}
+\entry{\textrussian{Метеор}}{Meteor}
+\entry{\textrussian{Метеоролог}}{Meteorologist}
+\entry{\textrussian{Метр}}{Meter}
+\multientry{\textrussian{Механическая энергия}}{}{Mechanical energy}
+\entry{\textrussian{Миграция}}{Migration}
+\multientry{\textrussian{Микроорганизм}}{}{Microorganism}
+\entry{\textrussian{Микроскоп}}{Microscope}
+\multientry{\textrussian{Микроскопический}}{}{Microscopic}
+\entry{\textrussian{Мимикрия}}{Mimicry}
+\entry{\textrussian{Минерал}}{Mineral}
+\entry{\textrussian{Митоз}}{Mitosis}
+\entry{\textrussian{Митохондрии}}{Mitochondria}
+\entry{\textrussian{Млекопитающие}}{Mammal}
+\entry{\textrussian{Модель}}{Model}
+\entry{\textrussian{Молекула}}{Molecule}
+\entry{\textrussian{Мутация}}{Mutation}
+\entry{\textrussian{Мутуализм}}{Mutualism}
+\multientry{\textrussian{Мышечная система}}{}{Muscular system}
+\section*{Н}
+\entry{\textrussian{Наблюдение}}{Observation}
+\multientry{\textrussian{Наклонная плоскость}}{}{Incline plane}
+\entry{\textrussian{Напряжение}}{Voltage}
+\entry{\textrussian{Насекомое}}{Insect}
+\entry{\textrussian{Население}}{Population}
+\multientry{\textrussian{Наследование и вариабельность признаков}}{}{Inheritance and Variation of Traits}
+\entry{\textrussian{Наследственность}}{Heredity}
+\multientry{\textrussian{Наследственный признак}}{}{Inherited trait}
+\multientry{\textrussian{Науки о Земле и космосе}}{}{Earth and Space Sciences}
+\entry{\textrussian{Невесомость}}{Zero gravity}
+\multientry{\textrussian{Невозобновляемый ресурс}}{}{Nonrenewable resource}
+\entry{\textrussian{Нейтральный}}{Neutral}
+\entry{\textrussian{Нейтрон}}{Neutron}
+\entry{\textrussian{Нектар}}{Nectar}
+\multientry{\textrussian{Нервная система}}{}{Nervous system}
+\entry{\textrussian{Нимфа}}{Nymph}
+\multientry{\textrussian{Ноль градусов}}{}{Zero degrees}
+\section*{О}
+\entry{\textrussian{Объем}}{Volume}
+\multientry{\textrussian{Ограничивающий фактор}}{}{Limiting factor}
+\entry{\textrussian{Озон}}{Ozone}
+\multientry{\textrussian{Оплодотворение}}{}{Fertilization}
+\entry{\textrussian{Опыление}}{Pollination}
+\entry{\textrussian{Опылитель}}{Pollinator}
+\entry{\textrussian{Орбита}}{Orbit}
+\entry{\textrussian{Орган}}{Organ}
+\entry{\textrussian{Организм}}{Organism}
+\multientry{\textrussian{Органная система}}{}{Organ system}
+\multientry{\textrussian{Осадочная порода}}{}{Sedimentary rock}
+\multientry{\textrussian{Осадочное образование}}{}{Deposition}
+\entry{\textrussian{Основание}}{Base}
+\entry{\textrussian{Ось}}{Axis}
+\entry{\textrussian{Ответ}}{Response}
+\entry{\textrussian{Отражение}}{Reflection}
+\section*{П}
+\entry{\textrussian{Паразит}}{Parasite}
+\entry{\textrussian{Паразитизм}}{Parasitism}
+\multientry{\textrussian{Параллельная цепь}}{}{Parallel circuit}
+\multientry{\textrussian{Парниковый эффект}}{}{Greenhouse effect}
+\multientry{\textrussian{Первичный потребитель}}{}{Primary consumer}
+\multientry{\textrussian{Передача энергии}}{}{Energy transfer}
+\entry{\textrussian{Переменная}}{Variable}
+\entry{\textrussian{Переработка}}{Recycle}
+\entry{\textrussian{Периметр}}{Perimeter}
+\multientry{\textrussian{Периодическая таблица}}{}{Periodic table}
+\multientry{\textrussian{Пирамида энергии}}{}{Energy pyramid}
+\entry{\textrussian{Пищеварение}}{Digestion}
+\multientry{\textrussian{Пищеварительная система}}{}{Digestive system}
+\entry{\textrussian{Пищевая сеть}}{Food web}
+\entry{\textrussian{Пищевая цепь}}{Food chain}
+\entry{\textrussian{Плавучесть}}{Buoyancy}
+\entry{\textrussian{Планета}}{Planet}
+\entry{\textrussian{Плотность}}{Density}
+\entry{\textrussian{Плотоядное}}{Carnivore}
+\entry{\textrussian{Площадь}}{Area}
+\entry{\textrussian{Поворачиваться}}{Rotate}
+\entry{\textrussian{Поглощение}}{Absorption}
+\entry{\textrussian{Поглощение}}{Ingestion}
+\entry{\textrussian{Погода}}{Weather}
+\multientry{\textrussian{Погода и климат}}{}{Weather and Climate}
+\entry{\textrussian{Позвоночные}}{Vertebrate}
+\multientry{\textrussian{Последовательное соединение }}{}{Series circuit}
+\multientry{\textrussian{Потенциальная энергия}}{}{Potential energy}
+\entry{\textrussian{Потомок}}{Descendant}
+\entry{\textrussian{Потомство}}{Offspring}
+\entry{\textrussian{Потребитель}}{Consumer}
+\entry{\textrussian{Предок}}{Ancestor}
+\entry{\textrussian{Преломление}}{Refraction}
+\entry{\textrussian{Пресмыкающиеся}}{Reptile}
+\entry{\textrussian{Призма}}{Prism}
+\entry{\textrussian{Признак}}{Trait}
+\entry{\textrussian{Прилив}}{Tide}
+\multientry{\textrussian{Приливная волна}}{}{Tidal wave}
+\multientry{\textrussian{Приобретенные признаки}}{}{Acquired trait}
+\multientry{\textrussian{Природный ресурс}}{}{Natural resource}
+\entry{\textrussian{Проводимость}}{Conduction}
+\entry{\textrussian{Проводник}}{Conductor}
+\entry{\textrussian{Продукт}}{Product}
+\entry{\textrussian{Производитель}}{Producer}
+\entry{\textrussian{Прокариоты}}{Prokaryotic}
+\entry{\textrussian{Прорастание}}{Germination}
+\multientry{\textrussian{Прорастание семян}}{}{Seed germination}
+\multientry{\textrussian{Простая машина}}{}{Simple machine}
+\entry{\textrussian{Протон}}{Proton}
+\multientry{\textrussian{Процессы, формирующие Землю}}{}{Processes that Shape the Earth}
+\multientry{\textrussian{Пружинные весы}}{}{Spring scale}
+\section*{Р}
+\entry{\textrussian{Работа}}{Work}
+\entry{\textrussian{Радиация}}{Radiation}
+\entry{\textrussian{Разлагатель}}{Decomposer}
+\entry{\textrussian{Размножение}}{Reproduction}
+\multientry{\textrussian{Разнос семян}}{}{Seed dispersal}
+\entry{\textrussian{Разработка}}{Development}
+\entry{\textrussian{Разрежение}}{Rarefaction}
+\multientry{\textrussian{Расследование}}{}{Investigation}
+\entry{\textrussian{Раствор}}{Solution}
+\multientry{\textrussian{Растворимое вещество}}{}{Solute}
+\entry{\textrussian{Растворитель}}{Solvent}
+\entry{\textrussian{Растворять}}{Dissolve}
+\entry{\textrussian{Реагент}}{Reactant}
+\multientry{\textrussian{Репродуктивная система}}{}{Reproductive system}
+\entry{\textrussian{Рецессивный}}{Recessive}
+\entry{\textrussian{Рибосомы}}{Ribosomes}
+\entry{\textrussian{РНК}}{RNA}
+\entry{\textrussian{Родитель}}{Parent}
+\entry{\textrussian{Родословная}}{Pedigree}
+\entry{\textrussian{Рост}}{Growth}
+\entry{\textrussian{Росток}}{Seedling}
+\entry{\textrussian{Рычаг}}{Lever}
+\section*{С}
+\entry{\textrussian{Свет}}{Light}
+\multientry{\textrussian{Световая энергия}}{}{Light energy}
+\multientry{\textrussian{Сердечно-сосудистая система}}{}{Circulatory system}
+\entry{\textrussian{Сжатие}}{Compression}
+\entry{\textrussian{Сила}}{Force}
+\multientry{\textrussian{Силы и взаимодействия}}{}{Forces and Interactions}
+\entry{\textrussian{Симбиоз}}{Symbiosis}
+\multientry{\textrussian{Скелетная система}}{}{Skeletal system}
+\multientry{\textrussian{Слоистые облака}}{}{Stratus clouds}
+\entry{\textrussian{Смесь}}{Mixture}
+\entry{\textrussian{Соединение}}{Compound}
+\entry{\textrussian{Созвездие}}{Constellation}
+\multientry{\textrussian{Солнечная батарея }}{}{Solar panel}
+\multientry{\textrussian{Солнечная система}}{}{Solar system}
+\multientry{\textrussian{Солнечная энергия}}{}{Solar energy}
+\entry{\textrussian{Солнце}}{Sun}
+\entry{\textrussian{Сообщество}}{Community}
+\entry{\textrussian{Сопротивление}}{Resistance}
+\multientry{\textrussian{Сопротивление воздуха}}{}{Air resistance}
+\multientry{\textrussian{Составная машина}}{}{Compound machine}
+\multientry{\textrussian{Сотрудничество}}{}{Cooperation}
+\entry{\textrussian{Спектр}}{Spectrum}
+\entry{\textrussian{Спутник}}{Satellite}
+\entry{\textrussian{Спящий}}{Dormant}
+\entry{\textrussian{Среда обитания}}{Habitat}
+\entry{\textrussian{Стервятник }}{Scavenger}
+\entry{\textrussian{Стимул}}{Stimulus}
+\multientry{\textrussian{Струйное течение}}{}{Jet stream}
+\multientry{\textrussian{Структура и свойства вещества}}{}{Structure and Properties of Matter}
+\multientry{\textrussian{Структура и функция}}{}{Structure and Function}
+\section*{Т}
+\entry{\textrussian{Твердое тело}}{Solid}
+\multientry{\textrussian{Тектоника плит}}{}{Plate tectonics}
+\multientry{\textrussian{Тектонические плиты}}{}{Tectonic plates}
+\entry{\textrussian{Телескоп}}{Telescope}
+\entry{\textrussian{Температура}}{Temperature}
+\entry{\textrussian{Теория}}{Theory}
+\entry{\textrussian{Тепло}}{Heat}
+\multientry{\textrussian{Тепловая энергия}}{}{Thermal energy}
+\entry{\textrussian{Термометр}}{Thermometer}
+\entry{\textrussian{Ткань}}{Tissue}
+\multientry{\textrussian{Ток}}{}{Current (electrical and ocean)}
+\entry{\textrussian{Ток}}{Current}
+\multientry{\textrussian{Толчки и тяги}}{}{Pushes and Pulls}
+\entry{\textrussian{Топливо}}{Fuel}
+\entry{\textrussian{Торнадо}}{Tornado}
+\multientry{\textrussian{Точка кипения}}{}{Boiling point}
+\entry{\textrussian{Травоядные}}{Herbivore}
+\multientry{\textrussian{Транспирация}}{}{Transpiration}
+\multientry{\textrussian{Трансформатор }}{}{Transformer}
+\entry{\textrussian{Трение}}{Friction}
+\multientry{\textrussian{Третичный потребитель}}{}{Tertiary consumer}
+\entry{\textrussian{Тропизм}}{Tropism}
+\entry{\textrussian{Тропосфера}}{Troposphere}
+\entry{\textrussian{Туманность}}{Nebula}
+\section*{У}
+\multientry{\textrussian{Ультрафиолетовый}}{}{Ultraviolet}
+\multientry{\textrussian{Уравновешенное уравнение}}{}{Balanced equation}
+\multientry{\textrussian{Устойчивость человечества}}{}{Human Sustainability}
+\section*{Ф}
+\entry{\textrussian{Фаза луны}}{Moon phase}
+\entry{\textrussian{Фенотип}}{Phenotype}
+\entry{\textrussian{Ферментация}}{Fermentation}
+\multientry{\textrussian{Физические науки}}{}{Physical Sciences}
+\multientry{\textrussian{Физическое изменение}}{}{Physical change}
+\entry{\textrussian{Фотосинтез}}{Photosynthesis}
+\section*{Х}
+\multientry{\textrussian{Химическая реакция}}{}{Chemical reaction}
+\multientry{\textrussian{Химическая связь}}{}{Chemical bond}
+\multientry{\textrussian{Химическая энергия}}{}{Chemical energy}
+\multientry{\textrussian{Химические реакции}}{}{Chemical Reactions}
+\multientry{\textrussian{Химическое изменение}}{}{Chemical change}
+\entry{\textrussian{Хищник}}{Predator}
+\entry{\textrussian{Хлоропласт}}{Chloroplast}
+\entry{\textrussian{Хлоропласты}}{Chloroplasts}
+\entry{\textrussian{Хлорофилл}}{Chlorophyll}
+\entry{\textrussian{Хромосома}}{Chromosome}
+\entry{\textrussian{Хромосомы}}{Chromosomes}
+\section*{Ц}
+\entry{\textrussian{Цельсий}}{Celsius}
+\entry{\textrussian{Цепь}}{Circuit}
+\entry{\textrussian{Цикл}}{Cycle}
+\entry{\textrussian{Циркуляция}}{Circulation}
+\multientry{\textrussian{Циррусные облака}}{}{Cirrus clouds}
+\entry{\textrussian{Цитоплазма}}{Cytoplasm}
+\section*{Ч}
+\entry{\textrussian{Частица}}{Particle}
+\entry{\textrussian{Частота}}{Frequency}
+\multientry{\textrussian{Четвертичный потребитель}}{}{Quaternary consumer}
+\section*{Ш}
+\multientry{\textrussian{Шаблоны и циклы}}{}{Patterns and Cycles}
+\entry{\textrussian{Шкала pH}}{pH scale}
+\entry{\textrussian{Шкив}}{Pulley}
+\section*{Э}
+\entry{\textrussian{Эволюция}}{Evolution}
+\entry{\textrussian{Экологическая ниша}}{Niche}
+\entry{\textrussian{Экосистема}}{Ecosystem}
+\multientry{\textrussian{Экскреторная система}}{}{Excretory system}
+\entry{\textrussian{Экскреция}}{Excretion}
+\entry{\textrussian{Экскреция}}{Egestion}
+\entry{\textrussian{Эксперимент}}{Experiment}
+\multientry{\textrussian{Электрическая энергия}}{}{Electrical energy}
+\entry{\textrussian{Электрон}}{Electron}
+\entry{\textrussian{Элемент}}{Element}
+\multientry{\textrussian{Эндокринная система}}{}{Endocrine system}
+\multientry{\textrussian{Эндоплазматическая сеть}}{}{Endoplasmic reticulum}
+\entry{\textrussian{Энергия}}{Energy}
+\entry{\textrussian{Эрозия}}{Erosion}
+\entry{\textrussian{Эукариота}}{Eukaryotic}
+\section*{Я}
+\multientry{\textrussian{Ядерная энергия}}{}{Nuclear energy}
+\entry{\textrussian{Ядро}}{Nucleus}
+\entry{\textrussian{Яичник}}{Ovary}
+\entry{\textrussian{Яйцо}}{Egg}
+\end{multicols}
+\backmatter
+\end{document}

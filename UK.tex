@@ -1,0 +1,898 @@
+\documentclass[a5paper,10pt]{book}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\setotherlanguage{ukrainian}
+\newfontfamily\cyrillicfont{Times New Roman}[Script=Cyrillic]
+\usepackage{microtype}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{tabularx}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{titlesec}
+\usepackage{lettrine}
+
+% Rest of your preamble remains the same
+
+
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+\titlespacing*{\chapter}{0pt}{-50pt}{40pt}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{\leftmark}
+\fancyhead[LO]{\rightmark}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\newcommand{\entry}[2]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X@{}r@{}}
+    \textbf{#1}\dotfill & #2 \\
+  \end{tabularx}
+}
+
+\newcommand{\multientry}[3]{%
+  \noindent\begin{tabularx}{\linewidth}{@{}X@{}r@{}}
+    \textbf{#1}  \textbf{ #2} & \\[-0.5ex]
+    \dotfill  #3 \\
+  \end{tabularx}
+}
+
+\begin{document}
+
+\frontmatter
+\title{Portland Public Middle School Science Curricula Translation Dictionary \\ \textukrainian{Української} – \textbf{English}}
+\author{Aidan Mokalla}
+\date{\today}
+\maketitle
+\tableofcontents
+\mainmatter
+\chapter{From English to Ukrainian}
+\begin{multicols}{2}
+\section*{A}
+\entry{Abiotic}{\textukrainian{Абіотичний}}
+\multientry{Abiotic}{factors}{\textukrainian{Абіотичні фактори}}
+\entry{Absorption}{\textukrainian{Поглинання}}
+\entry{Acid}{\textukrainian{Кислота}}
+\multientry{Acquired}{trait}{\textukrainian{Набута риса}}
+\entry{Adaptation}{\textukrainian{Адаптація}}
+\entry{Adult}{\textukrainian{Дорослий}}
+\multientry{Adult}{plant}{\textukrainian{Доросла рослина}}
+\multientry{Air}{resistance}{\textukrainian{Опір повітря}}
+\entry{Algae}{\textukrainian{Водорості}}
+\entry{Allele}{\textukrainian{Алель}}
+\entry{Amphibian}{\textukrainian{Земноводні}}
+\entry{Amplitude}{\textukrainian{Амплітуда}}
+\entry{Ancestor}{\textukrainian{Предок}}
+\entry{Anemometer}{\textukrainian{Анемометр}}
+\multientry{Animal}{cell}{\textukrainian{Тваринна клітина}}
+\entry{Aquatic}{\textukrainian{Водний}}
+\entry{Area}{\textukrainian{Площа}}
+\entry{Atmosphere}{\textukrainian{Атмосфера}}
+\entry{Atom}{\textukrainian{Атом}}
+\entry{Atomic mass}{\textukrainian{Атомна маса}}
+\multientry{Atomic}{number}{\textukrainian{Порядковий номер}}
+\entry{Axis}{\textukrainian{Вісь}}
+\section*{B}
+\entry{Bacteria}{\textukrainian{Бактерії}}
+\entry{Balance scale}{\textukrainian{Ваги}}
+\multientry{Balanced}{equation}{\textukrainian{Збалансоване рівняння}}
+\entry{Barometer}{\textukrainian{Барометр}}
+\entry{Base}{\textukrainian{Основа}}
+\entry{Battery}{\textukrainian{Батарея}}
+\multientry{Biodegradable}{}{\textukrainian{Біорозкладний }}
+\multientry{Biodiversity}{}{\textukrainian{Біорізноманіття}}
+\entry{Biome}{\textukrainian{Біом}}
+\entry{Biotic}{\textukrainian{Біотичний}}
+\multientry{Biotic}{factors}{\textukrainian{Біотичні фактори}}
+\multientry{Boiling}{point}{\textukrainian{Температура кипіння }}
+\entry{Buoyancy}{\textukrainian{Виливання}}
+\section*{C}
+\entry{Camouflage}{\textukrainian{Маскування}}
+\entry{Carnivore}{\textukrainian{Хижак}}
+\multientry{Carrying}{capacity}{\textukrainian{Вантажопідйомність}}
+\entry{Category}{\textukrainian{Категорія}}
+\entry{Cell}{\textukrainian{Клітина}}
+\multientry{Cell}{membrane}{\textukrainian{Клітинна мембрана}}
+\entry{Cell wall}{\textukrainian{Клітинна стінка}}
+\multientry{Cellular}{respiration}{\textukrainian{Клітинне дихання}}
+\entry{Celsius}{\textukrainian{Цельсій}}
+\multientry{Chemical}{bond}{\textukrainian{Хімічний зв'язок}}
+\multientry{Chemical}{change}{\textukrainian{Хімічне явище }}
+\multientry{Chemical}{energy}{\textukrainian{Хімічна енергія}}
+\multientry{Chemical}{reaction}{\textukrainian{Хімічна реакція}}
+\multientry{Chemical}{Reactions}{\textukrainian{Хімічні реакції}}
+\entry{Chlorophyll}{\textukrainian{Хлорофіл}}
+\entry{Chloroplast}{\textukrainian{Хлоропласт}}
+\entry{Chloroplasts}{\textukrainian{Хлоропласти}}
+\entry{Chromosome}{\textukrainian{Хромосома}}
+\entry{Chromosomes}{\textukrainian{Хромосоми}}
+\entry{Circuit}{\textukrainian{Електричне коло }}
+\entry{Circulation}{\textukrainian{Циркуляція}}
+\multientry{Circulatory}{system}{\textukrainian{Серцево-судинна система}}
+\multientry{Cirrus}{clouds}{\textukrainian{Циррусні хмари}}
+\multientry{Classification}{}{\textukrainian{Класифікація}}
+\entry{Climate}{\textukrainian{Клімат}}
+\entry{Cloning}{\textukrainian{Клонування}}
+\entry{Comet}{\textukrainian{Комета}}
+\entry{Commensalism}{\textukrainian{Коменсалізм}}
+\entry{Community}{\textukrainian{Громада}}
+\entry{Competition}{\textukrainian{Конкуренція}}
+\entry{Compost}{\textukrainian{Компост}}
+\entry{Compound}{\textukrainian{Сполука}}
+\multientry{Compound}{machine}{\textukrainian{Складна машина}}
+\entry{Compression}{\textukrainian{Стиснення}}
+\entry{Conclusion}{\textukrainian{Висновок}}
+\entry{Condensation}{\textukrainian{Конденсація}}
+\entry{Conduction}{\textukrainian{Провідність}}
+\entry{Conductor}{\textukrainian{Провідник}}
+\entry{Conservation}{\textukrainian{Консервація}}
+\multientry{Conservation}{of mass}{\textukrainian{Закон збереження маси }}
+\entry{Constellation}{\textukrainian{Сузір'я}}
+\entry{Consumer}{\textukrainian{Споживач}}
+\entry{Control}{\textukrainian{Контроль}}
+\entry{Convection}{\textukrainian{Конвекція}}
+\entry{Cooperation}{\textukrainian{Співпраця}}
+\multientry{Covalent}{bond}{\textukrainian{Ковалентний зв'язок}}
+\entry{Crust}{\textukrainian{Кора}}
+\multientry{Cumulus}{clouds}{\textukrainian{Кумулюсні хмари}}
+\entry{Current}{\textukrainian{Струм}}
+\multientry{Current}{(electrical and ocean)}{\textukrainian{Струм}}
+\entry{Cycle}{\textukrainian{Цикл}}
+\entry{Cytoplasm}{\textukrainian{Цитоплазма}}
+\section*{D}
+\entry{Data}{\textukrainian{Дані}}
+\entry{Decomposer}{\textukrainian{Розкладач}}
+\entry{Density}{\textukrainian{Густина}}
+\entry{Deposition}{\textukrainian{Відкладення}}
+\entry{Descendant}{\textukrainian{Наслідник }}
+\entry{Development}{\textukrainian{Розвиток}}
+\entry{Digestion}{\textukrainian{Травлення}}
+\multientry{Digestive}{system}{\textukrainian{Травна система}}
+\entry{Dinosaur}{\textukrainian{Динозавр}}
+\entry{Dissolve}{\textukrainian{Розчиняти}}
+\entry{DNA}{\textukrainian{ДНК}}
+\entry{Dominant}{\textukrainian{Домінуючий}}
+\entry{Dormant}{\textukrainian{Сплячий}}
+\section*{E}
+\multientry{Earth}{and Space Sciences}{\textukrainian{Науки про Землю та космос}}
+\entry{Earthquake}{\textukrainian{Землетрус}}
+\entry{Ecosystem}{\textukrainian{Екосистема}}
+\entry{Egestion}{\textukrainian{Екскреція}}
+\entry{Egg}{\textukrainian{Яйце}}
+\multientry{Electrical}{energy}{\textukrainian{Електрична енергія}}
+\entry{Electron}{\textukrainian{Електрон}}
+\entry{Element}{\textukrainian{Елемент}}
+\multientry{Endocrine}{system}{\textukrainian{Ендокринна система}}
+\multientry{Endoplasmic}{reticulum}{\textukrainian{Ендоплазматична сітка}}
+\entry{Energy}{\textukrainian{Енергія}}
+\multientry{Energy}{pyramid}{\textukrainian{Піраміда енергії}}
+\multientry{Energy}{transfer}{\textukrainian{Передача енергії}}
+\multientry{Engineering}{Design}{\textukrainian{Інженерний дизайн}}
+\entry{Erosion}{\textukrainian{Ерозія}}
+\entry{Eukaryotic}{\textukrainian{Еукаріоти}}
+\entry{Evaporation}{\textukrainian{Випаровування}}
+\entry{Evolution}{\textukrainian{Еволюція}}
+\entry{Excretion}{\textukrainian{Екскреція }}
+\multientry{Excretory}{system}{\textukrainian{Видільна система}}
+\entry{Experiment}{\textukrainian{Експеримент}}
+\entry{Extinct}{\textukrainian{Вимерлий}}
+\section*{F}
+\entry{Fermentation}{\textukrainian{Ферментація}}
+\entry{Fertilization}{\textukrainian{Запліднення}}
+\multientry{Food}{chain}{\textukrainian{Харчовий ланцюг}}
+\entry{Food web}{\textukrainian{Харчова мережа}}
+\entry{Force}{\textukrainian{Сила}}
+\multientry{Forces}{and Interactions}{\textukrainian{Сили та взаємодія}}
+\entry{Fossil}{\textukrainian{Викопний}}
+\multientry{Fossil}{fuel}{\textukrainian{Корисні копалини }}
+\multientry{Fossil}{record}{\textukrainian{Викопний запис}}
+\entry{Frequency}{\textukrainian{Частота}}
+\entry{Friction}{\textukrainian{Тертя}}
+\entry{Fuel}{\textukrainian{Пальне}}
+\entry{Fungi}{\textukrainian{Гриби}}
+\section*{G}
+\entry{Galaxy}{\textukrainian{Галактика}}
+\entry{Gas}{\textukrainian{Газ}}
+\entry{Gene}{\textukrainian{Ген}}
+\multientry{Genetic}{disorder}{\textukrainian{Генетичний розлад}}
+\multientry{Genetic}{engineering}{\textukrainian{Генна інженерія}}
+\entry{Genetics}{\textukrainian{Генетика}}
+\entry{Genotype}{\textukrainian{Генотип}}
+\multientry{Geothermal}{energy}{\textukrainian{Геотермальна енергія}}
+\entry{Germination}{\textukrainian{Проростання}}
+\multientry{Golgi}{apparatus}{\textukrainian{Апарат Гольджі}}
+\entry{Gram}{\textukrainian{Грам}}
+\entry{Gravity}{\textukrainian{Гравітація}}
+\multientry{Greenhouse}{effect}{\textukrainian{Парниковий ефект}}
+\entry{Groundwater}{\textukrainian{Грунтові води}}
+\entry{Growth}{\textukrainian{Ріст}}
+\section*{H}
+\multientry{Habitat}{}{\textukrainian{Середовище існування }}
+\entry{Heat}{\textukrainian{Тепло}}
+\entry{Herbivore}{\textukrainian{Травоїдний}}
+\entry{Heredity}{\textukrainian{Спадковість}}
+\entry{Heterozygous}{\textukrainian{Гетерозигота}}
+\entry{Hibernation}{\textukrainian{Зимівля}}
+\entry{Homeostasis}{\textukrainian{Гомеостаз}}
+\entry{Homozygous}{\textukrainian{Гомозигота }}
+\multientry{Human}{Impacts}{\textukrainian{Вплив людини}}
+\multientry{Human}{Sustainability}{\textukrainian{Сталість людства}}
+\multientry{Hydroelectricity}{}{\textukrainian{Гідроелектроенергія}}
+\entry{Hypothesis}{\textukrainian{Гіпотеза}}
+\section*{I}
+\multientry{Igneous}{rock}{\textukrainian{Вогнищева порода}}
+\multientry{Immune}{system}{\textukrainian{Імунна система}}
+\multientry{Incline}{plane}{\textukrainian{Схилена площина}}
+\entry{Indicator}{\textukrainian{Індикатор}}
+\entry{Inertia}{\textukrainian{Інерція}}
+\entry{Ingestion}{\textukrainian{Поглинання}}
+\multientry{Inheritance}{and Variation of Traits}{\textukrainian{Спадковість і варіативність ознак}}
+\multientry{Inherited}{trait}{\textukrainian{Успадкована риса}}
+\entry{Insect}{\textukrainian{Комаха}}
+\entry{Instinct}{\textukrainian{Інстинкт}}
+\entry{Insulator}{\textukrainian{Ізолятор}}
+\multientry{Interdependent}{Relationships in Ecosystems}{\textukrainian{Взаємозалежні відносини в екосистемах}}
+\entry{Invertebrate}{\textukrainian{Безхребетні}}
+\multientry{Investigation}{}{\textukrainian{Розслідування}}
+\entry{Ion}{\textukrainian{Іон}}
+\entry{Ionic bond}{\textukrainian{Іонний зв'язок}}
+\entry{Isotope}{\textukrainian{Ізотоп}}
+\section*{J}
+\multientry{Jet}{stream}{\textukrainian{Струминний потік}}
+\entry{Joule}{\textukrainian{Джоуль}}
+\section*{K}
+\multientry{Kinetic}{energy}{\textukrainian{Кінетична енергія}}
+\section*{L}
+\entry{Larva}{\textukrainian{Личинка}}
+\entry{Lava}{\textukrainian{Лава}}
+\multientry{Law}{(scientific)}{\textukrainian{Закон (науковий)}}
+\multientry{Law}{of conservation of energy}{\textukrainian{Закон збереження енергії}}
+\entry{Lens}{\textukrainian{Лінза}}
+\entry{Lever}{\textukrainian{Важіль }}
+\entry{Life cycle}{\textukrainian{Життєвий цикл}}
+\multientry{Life}{Cycles and Traits}{\textukrainian{Життєві цикли та ознаки}}
+\multientry{Life}{Sciences}{\textukrainian{Біологічні науки}}
+\entry{Light}{\textukrainian{Світло}}
+\multientry{Light}{energy}{\textukrainian{Світлова енергія}}
+\multientry{Limiting}{factor}{\textukrainian{Обмежувальний фактор}}
+\entry{Liquid}{\textukrainian{Рідина}}
+\entry{Liter}{\textukrainian{Літр}}
+\entry{Lysosomes}{\textukrainian{Лізосоми}}
+\section*{M}
+\entry{Magnetism}{\textukrainian{Магнетизм}}
+\entry{Mammal}{\textukrainian{Ссавці}}
+\entry{Mass}{\textukrainian{Маса}}
+\entry{Matter}{\textukrainian{Речовина}}
+\multientry{Matter}{and Energy in Organisms and Ecosystems}{\textukrainian{Речовина і енергія в організмах та екосистемах}}
+\entry{Measurement}{\textukrainian{Вимірювання}}
+\multientry{Mechanical}{energy}{\textukrainian{Механічна енергія}}
+\entry{Meiosis}{\textukrainian{Мейоз}}
+\multientry{Metallic}{bond}{\textukrainian{Металічний звʼязок }}
+\multientry{Metamorphic}{rock}{\textukrainian{Метаморфічна порода}}
+\entry{Metamorphosis}{\textukrainian{Метаморфоз}}
+\entry{Meteor}{\textukrainian{Метеор}}
+\entry{Meteorologist}{\textukrainian{Метеоролог}}
+\entry{Meter}{\textukrainian{Метр}}
+\multientry{Microorganism}{}{\textukrainian{Мікроорганізм}}
+\entry{Microscope}{\textukrainian{Мікроскоп}}
+\multientry{Microscopic}{}{\textukrainian{Мікроскопічний}}
+\entry{Migration}{\textukrainian{Міграція}}
+\entry{Mimicry}{\textukrainian{Мімікрія}}
+\entry{Mineral}{\textukrainian{Мінерал}}
+\entry{Mitochondria}{\textukrainian{Мітохондрії}}
+\entry{Mitosis}{\textukrainian{Мітоз}}
+\entry{Mixture}{\textukrainian{Суміш}}
+\entry{Model}{\textukrainian{Модель}}
+\entry{Molecule}{\textukrainian{Молекула}}
+\entry{Molting}{\textukrainian{Линяння}}
+\entry{Moon phase}{\textukrainian{Фаза місяця}}
+\multientry{Muscular}{system}{\textukrainian{М'язова система}}
+\entry{Mutation}{\textukrainian{Мутація}}
+\entry{Mutualism}{\textukrainian{Мутуалізм}}
+\section*{N}
+\multientry{Natural}{resource}{\textukrainian{Природний ресурс}}
+\multientry{Natural}{selection}{\textukrainian{Природний добір}}
+\multientry{Natural}{Selection and Adaptations}{\textukrainian{Природний добір та адаптації}}
+\multientry{Natural}{Selection and Evolution}{\textukrainian{Природний добір та еволюція}}
+\entry{Nebula}{\textukrainian{Туманність}}
+\entry{Nectar}{\textukrainian{Нектар}}
+\multientry{Nervous}{system}{\textukrainian{Нервова система}}
+\entry{Neutral}{\textukrainian{Нейтральний}}
+\entry{Neutron}{\textukrainian{Нейтрон}}
+\entry{Niche}{\textukrainian{Екологічна ніша}}
+\multientry{Nitrogen}{cycle}{\textukrainian{Азотний цикл}}
+\multientry{Nonrenewable}{resource}{\textukrainian{Невідновлюваний ресурс}}
+\multientry{Nuclear}{energy}{\textukrainian{Ядерна енергія}}
+\multientry{Nucleus}{(of a nucleus)}{\textukrainian{Ядро атома }}
+\multientry{Nucleus (of}{a cell)}{\textukrainian{Ядро клітини }}
+\entry{Nymph}{\textukrainian{Німфа}}
+\section*{O}
+\entry{Observation}{\textukrainian{Спостереження}}
+\entry{Offspring}{\textukrainian{Нащадки }}
+\entry{Omnivore}{\textukrainian{Всеїдний}}
+\entry{Orbit}{\textukrainian{Орбіта}}
+\entry{Organ}{\textukrainian{Орган}}
+\multientry{Organ}{system}{\textukrainian{Система органів}}
+\entry{Organism}{\textukrainian{Організм}}
+\entry{Ovary}{\textukrainian{Яєчник}}
+\entry{Oxygen}{\textukrainian{Кисень}}
+\entry{Ozone}{\textukrainian{Озон}}
+\section*{P}
+\multientry{Parallel}{circuit}{\textukrainian{Паралельне з'єднання}}
+\entry{Parasite}{\textukrainian{Паразит}}
+\entry{Parasitism}{\textukrainian{Паразитизм}}
+\entry{Parent}{\textukrainian{Батько або мати}}
+\multientry{Particle}{}{\textukrainian{Елементарна частинка }}
+\multientry{Patterns}{and Cycles}{\textukrainian{Шаблони та цикли}}
+\entry{Pedigree}{\textukrainian{Родовід}}
+\entry{Perimeter}{\textukrainian{Периметр}}
+\multientry{Periodic}{table}{\textukrainian{Періодична система хімічних елементів }}
+\entry{pH scale}{\textukrainian{Шкала pH}}
+\entry{Phenotype}{\textukrainian{Фенотип}}
+\entry{Photosynthesis}{\textukrainian{Фотосинтез}}
+\multientry{Physical}{change}{\textukrainian{Фізичне явище}}
+\multientry{Physical}{Sciences}{\textukrainian{Фізичні науки}}
+\entry{Planet}{\textukrainian{Планета}}
+\multientry{Plate}{tectonics}{\textukrainian{Тектоніка плит}}
+\entry{Pollination}{\textukrainian{Запилення}}
+\entry{Pollinator}{\textukrainian{Запилювач}}
+\entry{Pollution}{\textukrainian{Забруднення}}
+\entry{Population}{\textukrainian{Населення}}
+\multientry{Potential}{energy}{\textukrainian{Потенційна енергія}}
+\entry{Predator}{\textukrainian{Хижак}}
+\entry{Prey}{\textukrainian{Здобич}}
+\multientry{Primary}{consumer}{\textukrainian{Первинний споживач}}
+\entry{Prism}{\textukrainian{Призма}}
+\entry{Probability}{\textukrainian{Ймовірність}}
+\multientry{Processes}{that Shape the Earth}{\textukrainian{Процеси, що формують Землю}}
+\entry{Producer}{\textukrainian{Виробник}}
+\entry{Product}{\textukrainian{Продукт}}
+\entry{Prokaryotic}{\textukrainian{Прокаріоти}}
+\entry{Proton}{\textukrainian{Протон}}
+\entry{Pulley}{\textukrainian{Шків}}
+\multientry{Punnett}{square}{\textukrainian{Решітка Пеннета }}
+\entry{Pupa}{\textukrainian{Лялечка}}
+\multientry{Pushes}{and Pulls}{\textukrainian{Штовхи та тяги}}
+\section*{Q}
+\multientry{Quaternary}{consumer}{\textukrainian{Четвертинний споживач}}
+\section*{R}
+\multientry{Radiant}{energy}{\textukrainian{Випромінювальна енергія}}
+\entry{Radiation}{\textukrainian{Радіація}}
+\entry{Rain shadow}{\textukrainian{Тінь від дощу}}
+\entry{Rarefaction}{\textukrainian{Розрідження}}
+\entry{Reactant}{\textukrainian{Реактив}}
+\entry{Recessive}{\textukrainian{Рецесивний}}
+\entry{Recycle}{\textukrainian{Переробка}}
+\entry{Reflection}{\textukrainian{Відображення}}
+\entry{Refraction}{\textukrainian{Заломлення}}
+\multientry{Renewable}{resource}{\textukrainian{Відновні ресурси }}
+\entry{Reproduction}{\textukrainian{Розмноження}}
+\multientry{Reproductive}{system}{\textukrainian{Репродуктивна система}}
+\entry{Reptile}{\textukrainian{Плазуни}}
+\multientry{Resistance}{}{\textukrainian{Електричний опір }}
+\entry{Respiration}{\textukrainian{Дихання}}
+\multientry{Respiratory}{system}{\textukrainian{Дихальна система}}
+\entry{Response}{\textukrainian{Відповідь}}
+\entry{Revolve}{\textukrainian{Обертатися}}
+\entry{Ribosomes}{\textukrainian{Рибосоми}}
+\entry{RNA}{\textukrainian{РНК}}
+\entry{Rotate}{\textukrainian{Обертати}}
+\section*{S}
+\entry{Satellite}{\textukrainian{Супутник}}
+\entry{Scavenger}{\textukrainian{Стерв'ятник}}
+\entry{Screw}{\textukrainian{Гвинт}}
+\multientry{Secondary}{consumer}{\textukrainian{Вторинний споживач}}
+\multientry{Sedimentary}{rock}{\textukrainian{Осадова порода}}
+\multientry{Seed}{dispersal}{\textukrainian{Розсіювання насіння}}
+\multientry{Seed}{germination}{\textukrainian{Проростання насіння}}
+\entry{Seedling}{\textukrainian{Паросток }}
+\multientry{Selective}{breeding}{\textukrainian{Вибіркове розведення }}
+\multientry{Series}{circuit}{\textukrainian{Послідовне з'єднання}}
+\multientry{Simple}{machine}{\textukrainian{Проста машина}}
+\multientry{Skeletal}{system}{\textukrainian{Скелетна система}}
+\multientry{Solar}{energy}{\textukrainian{Сонячна енергія}}
+\multientry{Solar}{panel}{\textukrainian{Сонячна батарея }}
+\multientry{Solar}{system}{\textukrainian{Сонячна система}}
+\entry{Solid}{\textukrainian{Тверде тіло}}
+\entry{Solute}{\textukrainian{Розчинена речовина}}
+\entry{Solution}{\textukrainian{Розчин}}
+\entry{Solvent}{\textukrainian{Розчинник}}
+\multientry{Sound}{energy}{\textukrainian{Звукова енергія}}
+\entry{Sound wave}{\textukrainian{Звукова хвиля}}
+\multientry{Space}{Systems}{\textukrainian{Космічні системи}}
+\entry{Species}{\textukrainian{Вид}}
+\entry{Spectrum}{\textukrainian{Спектр}}
+\multientry{Spring}{scale}{\textukrainian{Пружинні ваги}}
+\entry{Star}{\textukrainian{Зірка}}
+\multientry{Stars}{and the Solar System}{\textukrainian{Зірки та сонячна система}}
+\multientry{States}{of matter}{\textukrainian{Агрегатний стан}}
+\entry{Stimulus}{\textukrainian{Подразник }}
+\multientry{Stratus}{clouds}{\textukrainian{Шаруваті хмари }}
+\multientry{Structure}{and Function}{\textukrainian{Структура та функція}}
+\multientry{Structure}{and Properties of Matter}{\textukrainian{Структура і властивості речовини}}
+\entry{Sun}{\textukrainian{Сонце}}
+\entry{Symbiosis}{\textukrainian{Симбіоз}}
+\section*{T}
+\multientry{Tectonic}{plates}{\textukrainian{Тектонічні плити}}
+\entry{Telescope}{\textukrainian{Телескоп}}
+\entry{Temperature}{\textukrainian{Температура}}
+\multientry{Tertiary}{consumer}{\textukrainian{Третинний споживач}}
+\entry{Theory}{\textukrainian{Теорія}}
+\multientry{Thermal}{energy}{\textukrainian{Теплова енергія}}
+\entry{Thermometer}{\textukrainian{Термометр}}
+\multientry{Tidal}{wave}{\textukrainian{Приливна хвиля }}
+\entry{Tide}{\textukrainian{Приплив}}
+\entry{Tissue}{\textukrainian{Тканина}}
+\entry{Tornado}{\textukrainian{Торнадо}}
+\entry{Trait}{\textukrainian{Ознака}}
+\entry{Transformer}{\textukrainian{Трансформатор}}
+\multientry{Transpiration}{}{\textukrainian{Транспірація}}
+\entry{Tropism}{\textukrainian{Тропізм}}
+\entry{Troposphere}{\textukrainian{Тропосфера}}
+\section*{U}
+\multientry{Ultraviolet}{}{\textukrainian{Ультрафіолетовий}}
+\entry{Universe}{\textukrainian{Всесвіт}}
+\section*{V}
+\entry{Vacuoles}{\textukrainian{Вакуолі}}
+\entry{Vacuum}{\textukrainian{Вакуум}}
+\entry{Variable}{\textukrainian{Змінна}}
+\entry{Variation}{\textukrainian{Варіація}}
+\entry{Vertebrate}{\textukrainian{Хребетні}}
+\entry{Volcano}{\textukrainian{Вулкан}}
+\entry{Voltage}{\textukrainian{Напруга}}
+\entry{Volume}{\textukrainian{Об'єм}}
+\section*{W}
+\entry{Water cycle}{\textukrainian{Водний цикл}}
+\entry{Water vapor}{\textukrainian{Водяна пара}}
+\entry{Wave}{\textukrainian{Хвиля}}
+\entry{Wavelength}{\textukrainian{Довжина хвилі}}
+\multientry{Waves}{and Electromagnetic Radiation}{\textukrainian{Хвилі та електромагнітне випромінювання}}
+\multientry{Waves}{and Information}{\textukrainian{Хвилі та інформація}}
+\entry{Weather}{\textukrainian{Погода}}
+\multientry{Weather}{and Climate}{\textukrainian{Погода та клімат}}
+\entry{Weathering}{\textukrainian{Вивітрювання}}
+\entry{Wedge}{\textukrainian{Клин}}
+\entry{Weight}{\textukrainian{Вага}}
+\entry{Wetland}{\textukrainian{Болото}}
+\multientry{Wheel}{and axle}{\textukrainian{Колесо та вісь}}
+\entry{Wind}{\textukrainian{Вітер}}
+\multientry{Wind}{energy}{\textukrainian{Вітрова енергія}}
+\multientry{Wind}{turbine}{\textukrainian{Вітрова турбіна}}
+\entry{Work}{\textukrainian{Робота}}
+\section*{X}
+\entry{Xylem}{\textukrainian{Ксилема}}
+\section*{Y}
+\entry{Yeast}{\textukrainian{Дріжджі}}
+\section*{Z}
+\multientry{Zero}{degrees}{\textukrainian{Нуль градусів}}
+\entry{Zero gravity}{\textukrainian{Невагомість}}
+\multientry{Zone}{(climate and layers of the Earth)}{\textukrainian{Зона (клімат і шари Землі)}}
+\entry{Zoology}{\textukrainian{Зоологія}}
+\end{multicols}
+\chapter{\textukrainian{З української на англійську}}
+\begin{multicols}{2}
+\section*{\textukrainian{А}}
+\entry{\textukrainian{Абіотичний}}{Abiotic}
+\multientry{\textukrainian{Абіотичні фактори}}{}{Abiotic factors}
+\multientry{\textukrainian{Агрегатний стан}}{}{States of matter}
+\entry{\textukrainian{Адаптація}}{Adaptation}
+\multientry{\textukrainian{Азотний цикл}}{}{Nitrogen cycle}
+\entry{\textukrainian{Алель}}{Allele}
+\entry{\textukrainian{Амплітуда}}{Amplitude}
+\entry{\textukrainian{Анемометр}}{Anemometer}
+\multientry{\textukrainian{Апарат Гольджі}}{}{Golgi apparatus}
+\entry{\textukrainian{Атмосфера}}{Atmosphere}
+\entry{\textukrainian{Атом}}{Atom}
+\entry{\textukrainian{Атомна маса}}{Atomic mass}
+\section*{\textukrainian{Б}}
+\entry{\textukrainian{Бактерії}}{Bacteria}
+\entry{\textukrainian{Барометр}}{Barometer}
+\entry{\textukrainian{Батарея}}{Battery}
+\entry{\textukrainian{Батько або мати}}{Parent}
+\entry{\textukrainian{Безхребетні}}{Invertebrate}
+\entry{\textukrainian{Болото}}{Wetland}
+\multientry{\textukrainian{Біологічні науки}}{}{Life Sciences}
+\entry{\textukrainian{Біом}}{Biome}
+\multientry{\textukrainian{Біорозкладний }}{}{Biodegradable}
+\multientry{\textukrainian{Біорізноманіття}}{}{Biodiversity}
+\entry{\textukrainian{Біотичний}}{Biotic}
+\multientry{\textukrainian{Біотичні фактори}}{}{Biotic factors}
+\section*{\textukrainian{В}}
+\entry{\textukrainian{Вага}}{Weight}
+\entry{\textukrainian{Ваги}}{Balance scale}
+\entry{\textukrainian{Важіль }}{Lever}
+\entry{\textukrainian{Вакуолі}}{Vacuoles}
+\entry{\textukrainian{Вакуум}}{Vacuum}
+\multientry{\textukrainian{Вантажопідйомність}}{}{Carrying capacity}
+\entry{\textukrainian{Варіація}}{Variation}
+\multientry{\textukrainian{Взаємозалежні відносини в екосистемах}}{}{Interdependent Relationships in Ecosystems}
+\multientry{\textukrainian{Вибіркове розведення }}{}{Selective breeding}
+\entry{\textukrainian{Вивітрювання}}{Weathering}
+\entry{\textukrainian{Вид}}{Species}
+\multientry{\textukrainian{Видільна система}}{}{Excretory system}
+\entry{\textukrainian{Викопний}}{Fossil}
+\multientry{\textukrainian{Викопний запис}}{}{Fossil record}
+\entry{\textukrainian{Виливання}}{Buoyancy}
+\entry{\textukrainian{Вимерлий}}{Extinct}
+\entry{\textukrainian{Вимірювання}}{Measurement}
+\entry{\textukrainian{Випаровування}}{Evaporation}
+\multientry{\textukrainian{Випромінювальна енергія}}{}{Radiant energy}
+\entry{\textukrainian{Виробник}}{Producer}
+\entry{\textukrainian{Висновок}}{Conclusion}
+\multientry{\textukrainian{Вогнищева порода}}{}{Igneous rock}
+\entry{\textukrainian{Водний}}{Aquatic}
+\entry{\textukrainian{Водний цикл}}{Water cycle}
+\entry{\textukrainian{Водорості}}{Algae}
+\entry{\textukrainian{Водяна пара}}{Water vapor}
+\multientry{\textukrainian{Вплив людини}}{}{Human Impacts}
+\entry{\textukrainian{Всесвіт}}{Universe}
+\entry{\textukrainian{Всеїдний}}{Omnivore}
+\multientry{\textukrainian{Вторинний споживач}}{}{Secondary consumer}
+\entry{\textukrainian{Вулкан}}{Volcano}
+\entry{\textukrainian{Відкладення}}{Deposition}
+\multientry{\textukrainian{Відновні ресурси }}{}{Renewable resource}
+\entry{\textukrainian{Відображення}}{Reflection}
+\entry{\textukrainian{Відповідь}}{Response}
+\entry{\textukrainian{Вісь}}{Axis}
+\entry{\textukrainian{Вітер}}{Wind}
+\multientry{\textukrainian{Вітрова енергія}}{}{Wind energy}
+\multientry{\textukrainian{Вітрова турбіна}}{}{Wind turbine}
+\section*{\textukrainian{Г}}
+\entry{\textukrainian{Газ}}{Gas}
+\entry{\textukrainian{Галактика}}{Galaxy}
+\entry{\textukrainian{Гвинт}}{Screw}
+\entry{\textukrainian{Ген}}{Gene}
+\entry{\textukrainian{Генетика}}{Genetics}
+\multientry{\textukrainian{Генетичний розлад}}{}{Genetic disorder}
+\multientry{\textukrainian{Генна інженерія}}{}{Genetic engineering}
+\entry{\textukrainian{Генотип}}{Genotype}
+\multientry{\textukrainian{Геотермальна енергія}}{}{Geothermal energy}
+\entry{\textukrainian{Гетерозигота}}{Heterozygous}
+\entry{\textukrainian{Гомеостаз}}{Homeostasis}
+\entry{\textukrainian{Гомозигота }}{Homozygous}
+\entry{\textukrainian{Гравітація}}{Gravity}
+\entry{\textukrainian{Грам}}{Gram}
+\entry{\textukrainian{Гриби}}{Fungi}
+\entry{\textukrainian{Громада}}{Community}
+\entry{\textukrainian{Грунтові води}}{Groundwater}
+\entry{\textukrainian{Густина}}{Density}
+\multientry{\textukrainian{Гідроелектроенергія}}{}{Hydroelectricity}
+\entry{\textukrainian{Гіпотеза}}{Hypothesis}
+\section*{\textukrainian{Д}}
+\entry{\textukrainian{Дані}}{Data}
+\entry{\textukrainian{Джоуль}}{Joule}
+\entry{\textukrainian{Динозавр}}{Dinosaur}
+\multientry{\textukrainian{Дихальна система}}{}{Respiratory system}
+\entry{\textukrainian{Дихання}}{Respiration}
+\entry{\textukrainian{ДНК}}{DNA}
+\entry{\textukrainian{Довжина хвилі}}{Wavelength}
+\entry{\textukrainian{Домінуючий}}{Dominant}
+\multientry{\textukrainian{Доросла рослина}}{}{Adult plant}
+\entry{\textukrainian{Дорослий}}{Adult}
+\entry{\textukrainian{Дріжджі}}{Yeast}
+\section*{\textukrainian{Е}}
+\entry{\textukrainian{Еволюція}}{Evolution}
+\entry{\textukrainian{Екологічна ніша}}{Niche}
+\entry{\textukrainian{Екосистема}}{Ecosystem}
+\entry{\textukrainian{Екскреція}}{Egestion}
+\entry{\textukrainian{Екскреція }}{Excretion}
+\entry{\textukrainian{Експеримент}}{Experiment}
+\multientry{\textukrainian{Електрична енергія}}{}{Electrical energy}
+\entry{\textukrainian{Електричне коло }}{Circuit}
+\multientry{\textukrainian{Електричний опір }}{}{Resistance}
+\entry{\textukrainian{Електрон}}{Electron}
+\entry{\textukrainian{Елемент}}{Element}
+\multientry{\textukrainian{Елементарна частинка }}{}{Particle}
+\multientry{\textukrainian{Ендокринна система}}{}{Endocrine system}
+\multientry{\textukrainian{Ендоплазматична сітка}}{}{Endoplasmic reticulum}
+\entry{\textukrainian{Енергія}}{Energy}
+\entry{\textukrainian{Ерозія}}{Erosion}
+\entry{\textukrainian{Еукаріоти}}{Eukaryotic}
+\section*{\textukrainian{Ж}}
+\entry{\textukrainian{Життєвий цикл}}{Life cycle}
+\multientry{\textukrainian{Життєві цикли та ознаки}}{}{Life Cycles and Traits}
+\section*{\textukrainian{З}}
+\entry{\textukrainian{Забруднення}}{Pollution}
+\multientry{\textukrainian{Закон (науковий)}}{}{Law (scientific)}
+\multientry{\textukrainian{Закон збереження енергії}}{}{Law of conservation of energy}
+\multientry{\textukrainian{Закон збереження маси }}{}{Conservation of mass}
+\entry{\textukrainian{Заломлення}}{Refraction}
+\entry{\textukrainian{Запилення}}{Pollination}
+\entry{\textukrainian{Запилювач}}{Pollinator}
+\entry{\textukrainian{Запліднення}}{Fertilization}
+\multientry{\textukrainian{Збалансоване рівняння}}{}{Balanced equation}
+\multientry{\textukrainian{Звукова енергія}}{}{Sound energy}
+\entry{\textukrainian{Звукова хвиля}}{Sound wave}
+\entry{\textukrainian{Здобич}}{Prey}
+\entry{\textukrainian{Землетрус}}{Earthquake}
+\entry{\textukrainian{Земноводні}}{Amphibian}
+\entry{\textukrainian{Зимівля}}{Hibernation}
+\entry{\textukrainian{Змінна}}{Variable}
+\multientry{\textukrainian{Зона (клімат і шари Землі)}}{}{Zone (climate and layers of the Earth)}
+\entry{\textukrainian{Зоологія}}{Zoology}
+\entry{\textukrainian{Зірка}}{Star}
+\multientry{\textukrainian{Зірки та сонячна система}}{}{Stars and the Solar System}
+\section*{\textukrainian{І}}
+\entry{\textukrainian{Ізолятор}}{Insulator}
+\entry{\textukrainian{Ізотоп}}{Isotope}
+\multientry{\textukrainian{Імунна система}}{}{Immune system}
+\entry{\textukrainian{Індикатор}}{Indicator}
+\entry{\textukrainian{Інерція}}{Inertia}
+\multientry{\textukrainian{Інженерний дизайн}}{}{Engineering Design}
+\entry{\textukrainian{Інстинкт}}{Instinct}
+\entry{\textukrainian{Іон}}{Ion}
+\entry{\textukrainian{Іонний зв'язок}}{Ionic bond}
+\section*{\textukrainian{Й}}
+\entry{\textukrainian{Ймовірність}}{Probability}
+\section*{\textukrainian{К}}
+\entry{\textukrainian{Категорія}}{Category}
+\entry{\textukrainian{Кисень}}{Oxygen}
+\entry{\textukrainian{Кислота}}{Acid}
+\multientry{\textukrainian{Класифікація}}{}{Classification}
+\entry{\textukrainian{Клин}}{Wedge}
+\entry{\textukrainian{Клонування}}{Cloning}
+\entry{\textukrainian{Клімат}}{Climate}
+\entry{\textukrainian{Клітина}}{Cell}
+\multientry{\textukrainian{Клітинна мембрана}}{}{Cell membrane}
+\entry{\textukrainian{Клітинна стінка}}{Cell wall}
+\multientry{\textukrainian{Клітинне дихання}}{}{Cellular respiration}
+\multientry{\textukrainian{Ковалентний зв'язок}}{}{Covalent bond}
+\multientry{\textukrainian{Колесо та вісь}}{}{Wheel and axle}
+\entry{\textukrainian{Комаха}}{Insect}
+\entry{\textukrainian{Коменсалізм}}{Commensalism}
+\entry{\textukrainian{Комета}}{Comet}
+\entry{\textukrainian{Компост}}{Compost}
+\entry{\textukrainian{Конвекція}}{Convection}
+\entry{\textukrainian{Конденсація}}{Condensation}
+\entry{\textukrainian{Конкуренція}}{Competition}
+\entry{\textukrainian{Консервація}}{Conservation}
+\entry{\textukrainian{Контроль}}{Control}
+\entry{\textukrainian{Кора}}{Crust}
+\multientry{\textukrainian{Корисні копалини }}{}{Fossil fuel}
+\multientry{\textukrainian{Космічні системи}}{}{Space Systems}
+\entry{\textukrainian{Ксилема}}{Xylem}
+\multientry{\textukrainian{Кумулюсні хмари}}{}{Cumulus clouds}
+\multientry{\textukrainian{Кінетична енергія}}{}{Kinetic energy}
+\section*{\textukrainian{Л}}
+\entry{\textukrainian{Лава}}{Lava}
+\entry{\textukrainian{Линяння}}{Molting}
+\entry{\textukrainian{Личинка}}{Larva}
+\entry{\textukrainian{Лялечка}}{Pupa}
+\entry{\textukrainian{Лізосоми}}{Lysosomes}
+\entry{\textukrainian{Лінза}}{Lens}
+\entry{\textukrainian{Літр}}{Liter}
+\section*{\textukrainian{М}}
+\multientry{\textukrainian{М'язова система}}{}{Muscular system}
+\entry{\textukrainian{Магнетизм}}{Magnetism}
+\entry{\textukrainian{Маса}}{Mass}
+\entry{\textukrainian{Маскування}}{Camouflage}
+\entry{\textukrainian{Мейоз}}{Meiosis}
+\multientry{\textukrainian{Металічний звʼязок }}{}{Metallic bond}
+\entry{\textukrainian{Метаморфоз}}{Metamorphosis}
+\multientry{\textukrainian{Метаморфічна порода}}{}{Metamorphic rock}
+\entry{\textukrainian{Метеор}}{Meteor}
+\entry{\textukrainian{Метеоролог}}{Meteorologist}
+\entry{\textukrainian{Метр}}{Meter}
+\multientry{\textukrainian{Механічна енергія}}{}{Mechanical energy}
+\entry{\textukrainian{Модель}}{Model}
+\entry{\textukrainian{Молекула}}{Molecule}
+\entry{\textukrainian{Мутація}}{Mutation}
+\entry{\textukrainian{Мутуалізм}}{Mutualism}
+\entry{\textukrainian{Міграція}}{Migration}
+\multientry{\textukrainian{Мікроорганізм}}{}{Microorganism}
+\entry{\textukrainian{Мікроскоп}}{Microscope}
+\multientry{\textukrainian{Мікроскопічний}}{}{Microscopic}
+\entry{\textukrainian{Мімікрія}}{Mimicry}
+\entry{\textukrainian{Мінерал}}{Mineral}
+\entry{\textukrainian{Мітоз}}{Mitosis}
+\entry{\textukrainian{Мітохондрії}}{Mitochondria}
+\section*{\textukrainian{Н}}
+\multientry{\textukrainian{Набута риса}}{}{Acquired trait}
+\entry{\textukrainian{Напруга}}{Voltage}
+\entry{\textukrainian{Населення}}{Population}
+\entry{\textukrainian{Наслідник }}{Descendant}
+\multientry{\textukrainian{Науки про Землю та космос}}{}{Earth and Space Sciences}
+\entry{\textukrainian{Нащадки }}{Offspring}
+\entry{\textukrainian{Невагомість}}{Zero gravity}
+\multientry{\textukrainian{Невідновлюваний ресурс}}{}{Nonrenewable resource}
+\entry{\textukrainian{Нейтральний}}{Neutral}
+\entry{\textukrainian{Нейтрон}}{Neutron}
+\entry{\textukrainian{Нектар}}{Nectar}
+\multientry{\textukrainian{Нервова система}}{}{Nervous system}
+\multientry{\textukrainian{Нуль градусів}}{}{Zero degrees}
+\entry{\textukrainian{Німфа}}{Nymph}
+\section*{\textukrainian{О}}
+\entry{\textukrainian{Об'єм}}{Volume}
+\entry{\textukrainian{Обертати}}{Rotate}
+\entry{\textukrainian{Обертатися}}{Revolve}
+\multientry{\textukrainian{Обмежувальний фактор}}{}{Limiting factor}
+\entry{\textukrainian{Ознака}}{Trait}
+\entry{\textukrainian{Озон}}{Ozone}
+\multientry{\textukrainian{Опір повітря}}{}{Air resistance}
+\entry{\textukrainian{Орбіта}}{Orbit}
+\entry{\textukrainian{Орган}}{Organ}
+\entry{\textukrainian{Організм}}{Organism}
+\multientry{\textukrainian{Осадова порода}}{}{Sedimentary rock}
+\entry{\textukrainian{Основа}}{Base}
+\section*{\textukrainian{П}}
+\entry{\textukrainian{Пальне}}{Fuel}
+\entry{\textukrainian{Паразит}}{Parasite}
+\entry{\textukrainian{Паразитизм}}{Parasitism}
+\multientry{\textukrainian{Паралельне з'єднання}}{}{Parallel circuit}
+\multientry{\textukrainian{Парниковий ефект}}{}{Greenhouse effect}
+\entry{\textukrainian{Паросток }}{Seedling}
+\multientry{\textukrainian{Первинний споживач}}{}{Primary consumer}
+\multientry{\textukrainian{Передача енергії}}{}{Energy transfer}
+\entry{\textukrainian{Переробка}}{Recycle}
+\entry{\textukrainian{Периметр}}{Perimeter}
+\multientry{\textukrainian{Періодична система хімічних елементів }}{}{Periodic table}
+\entry{\textukrainian{Плазуни}}{Reptile}
+\entry{\textukrainian{Планета}}{Planet}
+\entry{\textukrainian{Площа}}{Area}
+\entry{\textukrainian{Поглинання}}{Absorption}
+\entry{\textukrainian{Поглинання}}{Ingestion}
+\entry{\textukrainian{Погода}}{Weather}
+\multientry{\textukrainian{Погода та клімат}}{}{Weather and Climate}
+\entry{\textukrainian{Подразник }}{Stimulus}
+\multientry{\textukrainian{Порядковий номер}}{}{Atomic number}
+\multientry{\textukrainian{Послідовне з'єднання}}{}{Series circuit}
+\multientry{\textukrainian{Потенційна енергія}}{}{Potential energy}
+\entry{\textukrainian{Предок}}{Ancestor}
+\entry{\textukrainian{Призма}}{Prism}
+\multientry{\textukrainian{Приливна хвиля }}{}{Tidal wave}
+\entry{\textukrainian{Приплив}}{Tide}
+\multientry{\textukrainian{Природний добір}}{}{Natural selection}
+\multientry{\textukrainian{Природний добір та адаптації}}{}{Natural Selection and Adaptations}
+\multientry{\textukrainian{Природний добір та еволюція}}{}{Natural Selection and Evolution}
+\multientry{\textukrainian{Природний ресурс}}{}{Natural resource}
+\entry{\textukrainian{Провідник}}{Conductor}
+\entry{\textukrainian{Провідність}}{Conduction}
+\entry{\textukrainian{Продукт}}{Product}
+\entry{\textukrainian{Прокаріоти}}{Prokaryotic}
+\entry{\textukrainian{Проростання}}{Germination}
+\multientry{\textukrainian{Проростання насіння}}{}{Seed germination}
+\multientry{\textukrainian{Проста машина}}{}{Simple machine}
+\entry{\textukrainian{Протон}}{Proton}
+\multientry{\textukrainian{Процеси, що формують Землю}}{}{Processes that Shape the Earth}
+\multientry{\textukrainian{Пружинні ваги}}{}{Spring scale}
+\multientry{\textukrainian{Піраміда енергії}}{}{Energy pyramid}
+\section*{\textukrainian{Р}}
+\entry{\textukrainian{Радіація}}{Radiation}
+\entry{\textukrainian{Реактив}}{Reactant}
+\multientry{\textukrainian{Репродуктивна система}}{}{Reproductive system}
+\entry{\textukrainian{Рецесивний}}{Recessive}
+\entry{\textukrainian{Речовина}}{Matter}
+\multientry{\textukrainian{Речовина і енергія в організмах та екосистемах}}{}{Matter and Energy in Organisms and Ecosystems}
+\multientry{\textukrainian{Решітка Пеннета }}{}{Punnett square}
+\entry{\textukrainian{Рибосоми}}{Ribosomes}
+\entry{\textukrainian{РНК}}{RNA}
+\entry{\textukrainian{Робота}}{Work}
+\entry{\textukrainian{Родовід}}{Pedigree}
+\entry{\textukrainian{Розвиток}}{Development}
+\entry{\textukrainian{Розкладач}}{Decomposer}
+\entry{\textukrainian{Розмноження}}{Reproduction}
+\entry{\textukrainian{Розрідження}}{Rarefaction}
+\multientry{\textukrainian{Розслідування}}{}{Investigation}
+\multientry{\textukrainian{Розсіювання насіння}}{}{Seed dispersal}
+\entry{\textukrainian{Розчин}}{Solution}
+\entry{\textukrainian{Розчинена речовина}}{Solute}
+\entry{\textukrainian{Розчинник}}{Solvent}
+\entry{\textukrainian{Розчиняти}}{Dissolve}
+\entry{\textukrainian{Рідина}}{Liquid}
+\entry{\textukrainian{Ріст}}{Growth}
+\section*{\textukrainian{С}}
+\entry{\textukrainian{Світло}}{Light}
+\multientry{\textukrainian{Світлова енергія}}{}{Light energy}
+\multientry{\textukrainian{Середовище існування }}{}{Habitat}
+\multientry{\textukrainian{Серцево-судинна система}}{}{Circulatory system}
+\entry{\textukrainian{Сила}}{Force}
+\multientry{\textukrainian{Сили та взаємодія}}{}{Forces and Interactions}
+\entry{\textukrainian{Симбіоз}}{Symbiosis}
+\multientry{\textukrainian{Система органів}}{}{Organ system}
+\multientry{\textukrainian{Скелетна система}}{}{Skeletal system}
+\multientry{\textukrainian{Складна машина}}{}{Compound machine}
+\entry{\textukrainian{Сонце}}{Sun}
+\multientry{\textukrainian{Сонячна батарея }}{}{Solar panel}
+\multientry{\textukrainian{Сонячна енергія}}{}{Solar energy}
+\multientry{\textukrainian{Сонячна система}}{}{Solar system}
+\entry{\textukrainian{Спадковість}}{Heredity}
+\multientry{\textukrainian{Спадковість і варіативність ознак}}{}{Inheritance and Variation of Traits}
+\entry{\textukrainian{Спектр}}{Spectrum}
+\entry{\textukrainian{Сплячий}}{Dormant}
+\entry{\textukrainian{Споживач}}{Consumer}
+\entry{\textukrainian{Сполука}}{Compound}
+\entry{\textukrainian{Спостереження}}{Observation}
+\entry{\textukrainian{Співпраця}}{Cooperation}
+\entry{\textukrainian{Ссавці}}{Mammal}
+\multientry{\textukrainian{Сталість людства}}{}{Human Sustainability}
+\entry{\textukrainian{Стерв'ятник}}{Scavenger}
+\entry{\textukrainian{Стиснення}}{Compression}
+\multientry{\textukrainian{Структура та функція}}{}{Structure and Function}
+\multientry{\textukrainian{Структура і властивості речовини}}{}{Structure and Properties of Matter}
+\multientry{\textukrainian{Струм}}{}{Current (electrical and ocean)}
+\entry{\textukrainian{Струм}}{Current}
+\multientry{\textukrainian{Струминний потік}}{}{Jet stream}
+\entry{\textukrainian{Сузір'я}}{Constellation}
+\entry{\textukrainian{Суміш}}{Mixture}
+\entry{\textukrainian{Супутник}}{Satellite}
+\multientry{\textukrainian{Схилена площина}}{}{Incline plane}
+\section*{\textukrainian{Т}}
+\multientry{\textukrainian{Тваринна клітина}}{}{Animal cell}
+\entry{\textukrainian{Тверде тіло}}{Solid}
+\multientry{\textukrainian{Тектоніка плит}}{}{Plate tectonics}
+\multientry{\textukrainian{Тектонічні плити}}{}{Tectonic plates}
+\entry{\textukrainian{Телескоп}}{Telescope}
+\entry{\textukrainian{Температура}}{Temperature}
+\multientry{\textukrainian{Температура кипіння }}{}{Boiling point}
+\entry{\textukrainian{Теорія}}{Theory}
+\entry{\textukrainian{Тепло}}{Heat}
+\multientry{\textukrainian{Теплова енергія}}{}{Thermal energy}
+\entry{\textukrainian{Термометр}}{Thermometer}
+\entry{\textukrainian{Тертя}}{Friction}
+\entry{\textukrainian{Тканина}}{Tissue}
+\entry{\textukrainian{Торнадо}}{Tornado}
+\entry{\textukrainian{Травлення}}{Digestion}
+\multientry{\textukrainian{Травна система}}{}{Digestive system}
+\entry{\textukrainian{Травоїдний}}{Herbivore}
+\multientry{\textukrainian{Транспірація}}{}{Transpiration}
+\entry{\textukrainian{Трансформатор}}{Transformer}
+\multientry{\textukrainian{Третинний споживач}}{}{Tertiary consumer}
+\entry{\textukrainian{Тропосфера}}{Troposphere}
+\entry{\textukrainian{Тропізм}}{Tropism}
+\entry{\textukrainian{Туманність}}{Nebula}
+\entry{\textukrainian{Тінь від дощу}}{Rain shadow}
+\section*{\textukrainian{У}}
+\multientry{\textukrainian{Ультрафіолетовий}}{}{Ultraviolet}
+\multientry{\textukrainian{Успадкована риса}}{}{Inherited trait}
+\section*{\textukrainian{Ф}}
+\entry{\textukrainian{Фаза місяця}}{Moon phase}
+\entry{\textukrainian{Фенотип}}{Phenotype}
+\entry{\textukrainian{Ферментація}}{Fermentation}
+\entry{\textukrainian{Фотосинтез}}{Photosynthesis}
+\multientry{\textukrainian{Фізичне явище}}{}{Physical change}
+\multientry{\textukrainian{Фізичні науки}}{}{Physical Sciences}
+\section*{\textukrainian{Х}}
+\entry{\textukrainian{Харчова мережа}}{Food web}
+\multientry{\textukrainian{Харчовий ланцюг}}{}{Food chain}
+\entry{\textukrainian{Хвиля}}{Wave}
+\multientry{\textukrainian{Хвилі та електромагнітне випромінювання}}{}{Waves and Electromagnetic Radiation}
+\multientry{\textukrainian{Хвилі та інформація}}{}{Waves and Information}
+\entry{\textukrainian{Хижак}}{Carnivore}
+\entry{\textukrainian{Хижак}}{Predator}
+\entry{\textukrainian{Хлоропласт}}{Chloroplast}
+\entry{\textukrainian{Хлоропласти}}{Chloroplasts}
+\entry{\textukrainian{Хлорофіл}}{Chlorophyll}
+\entry{\textukrainian{Хребетні}}{Vertebrate}
+\entry{\textukrainian{Хромосома}}{Chromosome}
+\entry{\textukrainian{Хромосоми}}{Chromosomes}
+\multientry{\textukrainian{Хімічна енергія}}{}{Chemical energy}
+\multientry{\textukrainian{Хімічна реакція}}{}{Chemical reaction}
+\multientry{\textukrainian{Хімічне явище }}{}{Chemical change}
+\multientry{\textukrainian{Хімічний зв'язок}}{}{Chemical bond}
+\multientry{\textukrainian{Хімічні реакції}}{}{Chemical Reactions}
+\section*{\textukrainian{Ц}}
+\entry{\textukrainian{Цельсій}}{Celsius}
+\entry{\textukrainian{Цикл}}{Cycle}
+\entry{\textukrainian{Циркуляція}}{Circulation}
+\multientry{\textukrainian{Циррусні хмари}}{}{Cirrus clouds}
+\entry{\textukrainian{Цитоплазма}}{Cytoplasm}
+\section*{\textukrainian{Ч}}
+\entry{\textukrainian{Частота}}{Frequency}
+\multientry{\textukrainian{Четвертинний споживач}}{}{Quaternary consumer}
+\section*{\textukrainian{Ш}}
+\multientry{\textukrainian{Шаблони та цикли}}{}{Patterns and Cycles}
+\multientry{\textukrainian{Шаруваті хмари }}{}{Stratus clouds}
+\entry{\textukrainian{Шкала pH}}{pH scale}
+\entry{\textukrainian{Шків}}{Pulley}
+\multientry{\textukrainian{Штовхи та тяги}}{}{Pushes and Pulls}
+\section*{\textukrainian{Я}}
+\multientry{\textukrainian{Ядерна енергія}}{}{Nuclear energy}
+\multientry{\textukrainian{Ядро атома }}{}{Nucleus (of a nucleus)}
+\multientry{\textukrainian{Ядро клітини }}{}{Nucleus (of a cell)}
+\entry{\textukrainian{Яйце}}{Egg}
+\entry{\textukrainian{Яєчник}}{Ovary}
+\end{multicols}
+\backmatter
+\end{document}
